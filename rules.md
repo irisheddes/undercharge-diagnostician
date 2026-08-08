@@ -197,8 +197,9 @@ deleted.
 A diagnosis is revised only when its evidence changes — the person corrects a fact the
 verdict relied on. The procedure keeps every step honest:
 
-- The correction enters the kit as a dated amendment below the original statement;
-  nothing already recorded is deleted or rewritten.
+- The correction enters the kit as a dated amendment — either directly below the
+  original statement or in an "## Amendments" section at the end, naming what it
+  corrects. Nothing already recorded is deleted or rewritten.
 - The revision runs in a fresh session, from the amended kit, exactly like a first
   run — and it never opens the case's earlier transcripts; finding one in the folder
   changes nothing about that.

@@ -1,6 +1,8 @@
 # Case <codename> — evidence kit
 
-**Frozen on:** <date> — no edits after this date; corrections go in the transcript, not here.
+**Frozen on:** <date> — no silent edits after this date. If a fact later proves wrong,
+it enters as a dated amendment in an "## Amendments" section at the end (rules.md §4a);
+the original text is never rewritten.
 Redact names freely. Never redact numbers, dates, or the order of events.
 
 ## 1 — The pricing moment
