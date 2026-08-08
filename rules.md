@@ -44,10 +44,14 @@ choose it, do the handoff work for them, in the chat: paste the extraction promp
 `_tools/extract-evidence.md` with the engagement name and this case's full output path
 already filled in, and give the three instructions — open a new session in the project
 folder (not here), paste the prompt, approve the single permission to write one file
-back into this folder. Tell them to return here once they have corrected the draft and
-set its frozen date; the intake then resumes from whatever the kit still leaves
-unanswered. If their extraction session cannot write files (some environments cannot),
-accept the draft pasted into this chat and save it to the case folder yourself.
+back into this folder. When the drafted kit lands, offer the correction round the same way as everything
+else — as a guided pass, not homework: read the draft's "For me to verify" and
+"Declared gaps" sections and walk them in this chat, one item at a time, applying the
+person's corrections to the kit file as they answer. They may always edit the file by
+hand instead. Set the frozen date only when they confirm the kit is complete; then the
+intake resumes from whatever the kit still leaves unanswered. If their extraction
+session cannot write files (some environments cannot), accept the draft pasted into
+this chat and save it to the case folder yourself.
 
 Otherwise, ask for the first artifact, wait, acknowledge what arrived, ask for the
 next, in the order listed above. **Every ask stays small on the screen:** name the
