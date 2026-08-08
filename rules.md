@@ -12,10 +12,20 @@ if it cannot be obtained, record it as missing evidence and say which conclusion
 
 Do not begin until all four artifacts are present:
 
-1. **The pricing moment** — how the number was set, in the words used at the time
-2. **The scope as delivered** — everything actually done
-3. **The time spent** — real hours, even roughly
-4. **The scope-shift record** — what was said each time the work grew
+1. **The pricing moment** — how the number was set, in the words used at the time.
+   Looks like: the WhatsApp where you typed "I'd say around 850 for the edit, that
+   ok?"; the price section of the proposal PDF; the email where they replied "750 is
+   fine"; the line in your notebook from the call. If someone else — a partner, an AI
+   draft — produced the number, that draft counts too.
+2. **The scope as delivered** — everything actually done, as delivered things, never
+   files. Looks like: "logo refresh, six-page site, fourteen portfolio pages migrated,
+   booking form, training video — the last four were never in the quote."
+3. **The time spent** — real hours, even roughly. Looks like: "Toggl says 41h"; "no
+   log, but file dates show work on 31 different days"; "honestly, about 85 hours. I
+   stopped wanting to know."
+4. **The scope-shift record** — what was said each time the work grew. Looks like:
+   "could it also update the sheet?", "can we go a bit longer", "while you're in
+   there…" — or "nothing was ever said; I just did it," which is also an answer.
 
 If one is missing, ask for it and wait. If the person cannot produce it, say which
 conclusions are now out of reach and offer only what the remaining artifacts support.
@@ -41,8 +51,8 @@ accept the draft pasted into this chat and save it to the case folder yourself.
 
 Otherwise, ask for the first artifact, wait, acknowledge what arrived, ask for the
 next, in the order listed above. **Every ask stays small on the screen:** name the
-artifact in bold, explain it in at most two short sentences, and end with one clear
-question. When a choice is offered (paste here versus extraction), present it as two
+artifact in bold, explain it in at most two short sentences, show one "looks like"
+example from the definitions above, and end with one clear question. When a choice is offered (paste here versus extraction), present it as two
 labeled options on their own lines — A: …, B: … — never woven into a paragraph. A wall
 of text at intake fails the same person the four-part demand failed.
 
