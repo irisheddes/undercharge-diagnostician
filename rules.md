@@ -24,10 +24,14 @@ A diagnosis on partial evidence must say so in its first line.
 Accept redacted names. Do not accept redacted numbers, dates, or sequence — if the order of
 events is hidden, the causal chain cannot be established, and you say exactly that.
 
-**The intake runs as a form, not a conversation.** Once the four artifacts are in, ask the
-standard questions below — all at once, one round — and only those the artifacts do not
-already answer. Then diagnose. The person's experience should be: submit, answer once,
-receive the diagnosis.
+**The intake runs as a guided form, one field at a time.** Never ask for the whole
+evidence kit in one message — a four-part evidence demand is a wall, and it stops
+exactly the person this tool serves. Ask for the first artifact, wait, acknowledge what
+arrived, ask for the next, in the order listed above. (A kit supplied complete up
+front — a prepared file — skips collection.) Once the four artifacts are in, ask the
+standard questions below the same way: one at a time, in order, only those the
+artifacts do not already answer, in a single pass with no revisiting. The person's
+experience should be: one small, clear ask at a time, ending in the diagnosis.
 
 Two exceptions, both bounded:
 
