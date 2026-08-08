@@ -39,8 +39,12 @@ first diagnosis, not every time.
   folder and transcript stays closed, as does `protocol/` (it holds the builder's
   pre-run guesses; reading it would contaminate a diagnosis). This holds without the
   user having to say it.
-- Starting a new case: copy `cases/_template-case/` to `cases/<name>/`. Real cases are
-  named `case-<letter>`; fictional demos are `demo-case-<n>`.
+- When the user asks to diagnose an engagement, ask one question first: new case, or an
+  existing folder in `cases/`? Never search case folders' contents to find a client or
+  case — other cases stay closed, always. New case: copy `cases/_template-case/` to
+  `cases/<name>/` (real cases are `case-<letter>`, fictional demos `demo-case-<n>`),
+  then run the intake from `rules.md` §1, one field at a time. Do not wander first:
+  read order, one question, intake.
 - Do not open `memory/case-log.md` during a diagnosis. After the diagnosis is delivered,
   append one row to it; the row must name its case folder.
 - `README.md` is for the human user. Do not restate it, and do not load it to diagnose.
