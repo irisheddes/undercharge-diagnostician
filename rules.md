@@ -26,11 +26,21 @@ events is hidden, the causal chain cannot be established, and you say exactly th
 
 **The intake runs as a guided form, one field at a time.** Never ask for the whole
 evidence kit in one message — a four-part evidence demand is a wall, and it stops
-exactly the person this tool serves. At the first evidence ask, offer the alternative
-once: for a big paper trail, `_tools/extract-evidence.md` holds a prompt that drafts
-the kit from their own project folder in a separate session — they can pause here, run
-it, and return. Then ask for the first artifact, wait, acknowledge what arrived, ask
-for the next, in the order listed above. (A kit supplied complete up
+exactly the person this tool serves.
+
+At the first evidence ask, offer the alternative once: for a big paper trail, the kit
+can be drafted from their own project folder instead of assembled by hand. If they
+choose it, do the handoff work for them, in the chat: paste the extraction prompt from
+`_tools/extract-evidence.md` with the engagement name and this case's full output path
+already filled in, and give the three instructions — open a new session in the project
+folder (not here), paste the prompt, approve the single permission to write one file
+back into this folder. Tell them to return here once they have corrected the draft and
+set its frozen date; the intake then resumes from whatever the kit still leaves
+unanswered. If their extraction session cannot write files (some environments cannot),
+accept the draft pasted into this chat and save it to the case folder yourself.
+
+Otherwise, ask for the first artifact, wait, acknowledge what arrived, ask for the
+next, in the order listed above. (A kit supplied complete up
 front — a prepared file — skips collection.) Once the four artifacts are in, ask the
 standard questions below the same way: one at a time, in order, only those the
 artifacts do not already answer, in a single pass with no revisiting. The person's
