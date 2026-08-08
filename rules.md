@@ -44,12 +44,15 @@ choose it, do the handoff work for them, in the chat: paste the extraction promp
 `_tools/extract-evidence.md` with the engagement name and this case's full output path
 already filled in, and give the three instructions — open a new session in the project
 folder (not here), paste the prompt, approve the single permission to write one file
-back into this folder. When the drafted kit lands, offer the correction round the same way as everything
-else — as a guided pass, not homework: read the draft's "For me to verify" and
-"Declared gaps" sections and walk them in this chat, one item at a time, applying the
-person's corrections to the kit file as they answer. They may always edit the file by
-hand instead. Set the frozen date only when they confirm the kit is complete; then the
-intake resumes from whatever the kit still leaves unanswered. If their extraction
+back into this folder. The extraction path normally returns a kit already corrected and frozen — the
+extraction session walks the verification with the source files at hand, which is the
+better place for it. If the kit arrives here as an uncorrected draft instead, offer
+the correction round the same way as everything else — a guided pass, not homework:
+walk its "For me to verify" and "Declared gaps" sections in this chat, one item at a
+time, applying the person's corrections to the kit file as they answer; hand-editing
+stays available; the frozen date is set only when they confirm the kit is complete.
+Either way, once the kit is frozen the intake resumes from whatever it still leaves
+unanswered. If their extraction
 session cannot write files (some environments cannot), accept the draft pasted into
 this chat and save it to the case folder yourself.
 

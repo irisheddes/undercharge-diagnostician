@@ -10,16 +10,14 @@ A separate session can draft it from your own project folder. Here is the whole 
 3. **Approve one permission.** The session reads its own folder freely; at the end it
    asks to write a single file outside it — the draft kit, into this folder. Say yes to
    that one write and nothing else.
-4. **Close the extraction window and return to your diagnosis session** — the same
-   window if it is still open (it stayed clean; the mining happened elsewhere), or any
-   fresh session later, saying: *"continue my case — cases/<case-name>."*
-5. **Correct the draft together.** Tell it the extraction landed. It walks you through
-   the draft's "For me to verify" list one item at a time — you answer, it fixes the
-   kit — and sets the frozen date when you confirm the kit is complete. You are the
-   authority on what actually happened; the extractor only found what was written
-   down. (Prefer to edit the file by hand? Also fine — set the "Frozen on" date
-   yourself, then tell the session you're ready.) Either way, the intake then resumes
-   from whatever the corrected kit still leaves unanswered.
+4. **Stay in that window and finish the kit there.** After writing the draft, the
+   session walks you through its "For me to verify" list and declared gaps one item at
+   a time — and because the source files are right there, it can re-check documents as
+   you answer. You are the authority on what actually happened; genuine unknowns stay
+   as declared gaps. When you confirm the kit is complete, it sets the frozen date.
+5. **Then return to your diagnosis session** — the same window if still open, or any
+   fresh one — and say: *"my kit is frozen — continue cases/<case-name>."* The intake
+   resumes with only its own remaining questions, then the diagnosis.
 
 Why the separate window matters: the mining session must never judge, and the judging
 session must never mine. A diagnosis made by a session that has wandered your whole
@@ -56,8 +54,11 @@ run."
 
 Write the draft to: <full path to this diagnostician folder>/cases/<case-name>/evidence-kit.md
 
-End your final summary with a single clear next step for me, in this spirit: "Draft
-saved. Go back to your diagnosis session and tell it the extraction landed — it will
-walk you through correcting the draft one item at a time and freeze it when you
-confirm." Do not tell me to edit the file by hand; that is the fallback, not the path.
+After writing the draft, do not finish there. Walk me through, one item at a time:
+every entry in "For me to verify" and every declared gap — ask, wait for my answer,
+re-check the source files here where that settles it, and correct the saved kit as we
+go. One item per message, short. Keep genuine unknowns as declared gaps. When I confirm
+the kit is complete, set the "Frozen on" date and change the first line to "CORRECTED
+AND FROZEN — <date>". Then end with exactly one next step: "Kit frozen. Go back to
+your diagnosis session and say: my kit is frozen — continue my case."
 ```
