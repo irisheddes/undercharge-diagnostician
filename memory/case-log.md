@@ -4,8 +4,10 @@ One line per diagnosed engagement, appended after every diagnosis. This is the
 diagnostician's accumulated experience: over time, the frequency column becomes its own
 finding about how solo underpricing actually distributes.
 
-**Append rule:** after each completed diagnosis, add a row. Never edit or delete a row —
-if a diagnosis is later revised, add a new row referencing the old one.
+**Append rule:** after each completed diagnosis, add a row. A registered case that has
+not yet run may hold a placeholder row marked *pending run* — that is a declared
+intention, not a diagnosis. Never edit or delete a diagnosed row — if a diagnosis is
+later revised, add a new row referencing the old one.
 
 **Integrity rule:** every row names its folder in `cases/`, and every case folder with a
 transcript has a row here. A row without a folder, or a folder without a row, is a defect.

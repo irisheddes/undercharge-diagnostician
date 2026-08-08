@@ -27,8 +27,12 @@ blind, by sessions (one from a different AI entirely) that had never seen this m
 Each run also argued explicitly *against* the causes the other cases concluded — the
 third case ruled out necessity (the developer had savings and booked work) and the
 unpriced offer (he owned a day rate) before landing on the pricing moment. Same method,
-different evidence, different answers. `demo-case-3/transcript.md` shows the current
-rules — plain language, spoken to the person — and is the best single thing to read.
+different evidence, different answers. The verdicts column shows each case as first
+diagnosed; `memory/case-log.md` is the authoritative record if a diagnosis is ever
+revised. For a human reader, `demo-case-3/transcript.md` — the run under the current
+rules, plain language, spoken to the person — is the best single thing to read. (An
+agent running a diagnosis learns the contract from the worked example below; case
+transcripts stay closed to it, per the router.)
 
 ---
 

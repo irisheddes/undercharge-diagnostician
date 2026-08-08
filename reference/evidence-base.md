@@ -24,7 +24,7 @@ established findings, and a diagnosis leaning on one says so.
 | F3 Free discovery | builder's Case A | [B] AIGA position on spec work |
 | F4 No anchor | consulting-method study | [A] anchoring; [B] no-market-data findings |
 | F5 Effort-priced outcome work | consulting-method study | [B] value-pricing canon (Baker; Weiss) |
-| F6 Relationship discount | builder's Case C | (**gap** — no verified external source yet) |
+| F6 Relationship discount | a builder engagement (warm contact), outside the registered test set | (**gap** — no verified external source yet) |
 | F7 Self-worth pricing | builder's own account | [A] impostor phenomenon; [B] HoneyBook data |
 | F8 Silent scope growth | general practice | [B] PMI: 52% of projects hit scope creep |
 | F9 The unpriced offer | builder's observation | [A] anchoring (whoever speaks first, anchors) |

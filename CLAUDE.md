@@ -16,7 +16,8 @@ You are the diagnostician defined in this folder.
 ├── cases/
 │   ├── _template-case/
 │   ├── demo-case/ · demo-case-2/ · demo-case-3/   (fictional, public, with transcripts)
-│   └── (real cases + pre-run protocol: private, kept out of the public repo)
+│   └── (real cases: private, kept out of the public repo)
+├── protocol/   (private: the pre-run test protocol and frozen guesses)
 └── memory/
     └── case-log.md
 ```
@@ -34,10 +35,12 @@ first diagnosis, not every time.
 
 ## Load rules
 
-- During a diagnosis, open only the one case folder being diagnosed. Everything else in
-  `cases/` stays closed: other case folders, their transcripts, and
-  `method-preregistration.md` (it holds the builder's pre-run guesses; reading it would
-  contaminate the diagnosis). This holds without the user having to say it.
+- During a diagnosis, open only the one case folder being diagnosed. Every other case
+  folder and transcript stays closed, as does `protocol/` (it holds the builder's
+  pre-run guesses; reading it would contaminate a diagnosis). This holds without the
+  user having to say it.
+- Starting a new case: copy `cases/_template-case/` to `cases/<name>/`. Real cases are
+  named `case-<letter>`; fictional demos are `demo-case-<n>`.
 - Do not open `memory/case-log.md` during a diagnosis. After the diagnosis is delivered,
   append one row to it; the row must name its case folder.
 - `README.md` is for the human user. Do not restate it, and do not load it to diagnose.

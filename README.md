@@ -61,8 +61,8 @@ section 5.
   solid the source is, gaps stated
 - `cases/` — the diagnosed engagements. Public here: `_template-case/` (copy it to start
   a case) and three fictional demo cases, each with its evidence kit and unedited run
-  transcript. Private, on my machine only: the real case files and the pre-run test
-  protocol with my frozen guesses, out of respect for the clients and people inside
-  them.
+  transcript. Private, on my machine only: the real case files, out of respect for the
+  clients and people inside them, and a `protocol/` folder holding the pre-run test
+  protocol with my frozen guesses.
 - `memory/case-log.md` — one row per diagnosed case. It ships with cases in it, not
   promises.

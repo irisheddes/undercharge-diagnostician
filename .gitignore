@@ -1,5 +1,6 @@
 # Private: real case material stays local. The method is public; the patients are not.
 # The demo cases are fictional and fully public.
+protocol/
 cases/*
 !cases/_template-case/
 !cases/_template-case/**
