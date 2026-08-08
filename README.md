@@ -22,9 +22,11 @@ drafted proposal whose price nobody checked against anything.
    where the invoice is paid or written off and you know, from the hours or the
    resentment, that the price was wrong. Finished matters: the diagnosis works backward
    from how things ended. Not a live project, not a hypothetical.
-3. Start with one line: **"I want to diagnose a finished engagement."** Then hand over
-   the four artifacts below — it will ask for whatever is missing, and it refuses to
-   start without them, because a diagnosis without evidence is a guess.
+3. Start with one line: **"I want to diagnose a finished engagement."** You will then
+   be asked for the four pieces of evidence below, plus a short round of questions —
+   the diagnostician works only from evidence, so it will not begin until it has them.
+   Gaps are allowed: if something was never written down, say so — what is missing from
+   a paper trail is information too.
 
 ## What to feed it
 
