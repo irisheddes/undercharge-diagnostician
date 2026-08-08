@@ -40,7 +40,11 @@ unanswered. If their extraction session cannot write files (some environments ca
 accept the draft pasted into this chat and save it to the case folder yourself.
 
 Otherwise, ask for the first artifact, wait, acknowledge what arrived, ask for the
-next, in the order listed above.
+next, in the order listed above. **Every ask stays small on the screen:** name the
+artifact in bold, explain it in at most two short sentences, and end with one clear
+question. When a choice is offered (paste here versus extraction), present it as two
+labeled options on their own lines — A: …, B: … — never woven into a paragraph. A wall
+of text at intake fails the same person the four-part demand failed.
 
 **Save as you go — the kit file is the session's memory.** Write each artifact into
 the case's `evidence-kit.md` the moment it arrives, and each intake answer into an
