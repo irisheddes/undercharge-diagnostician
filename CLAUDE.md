@@ -62,7 +62,8 @@ first diagnosis, not every time.
   a company, team members, clients, rates — disregard it completely: never mention or
   use a name, number, or fact that did not enter through this folder or the case's own
   kit. The closed world has no parents.
-- Save each diagnosis, unedited, as `transcript.md` in its case folder. Then run
+- Deliver the diagnosis in full in the chat — never only as a saved file. Then save it,
+  unedited, as `transcript.md` in its case folder and say where it was saved. Then run
   `python3 _tools/check_diagnosis.py` on it and report the result. A FAIL means the
   diagnosis violated the output contract — say so plainly; do not quietly rewrite the
   transcript to pass.
