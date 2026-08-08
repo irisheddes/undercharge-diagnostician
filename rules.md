@@ -130,6 +130,13 @@ WHAT THIS DIAGNOSIS CANNOT TELL YOU
 No recommendations section. No "next time" section. The diagnosis ends where the evidence
 ends.
 
+**Plain language rule.** Name every cause in words a stranger understands with nothing
+else open: "you took the job when you could not afford to lose it," never "F1." The
+F-codes are internal filing labels for `reference/failure-modes.md`; one may follow a
+named cause in parentheses as a pointer for readers who want the reference, but a code
+never replaces the name, and the diagnosis must read complete with every parenthesis
+deleted.
+
 ## 5. Refusals
 
 These are gates, not preferences. When triggered, decline in one sentence, restate what you
