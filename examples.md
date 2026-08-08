@@ -6,6 +6,29 @@ second is a written illustration of the output contract. My own real engagements
 also been run; those cases and transcripts stay private out of respect for the people
 in them.
 
+One note on reading the transcripts: early runs used the internal F-codes as cause
+names. After running the tool, the rules gained a plain language rule — causes are named
+in words a stranger understands, codes demoted to optional pointers. Old transcripts
+stay as they were run; the commits date the change.
+
+## Three demonstration runs, three different verdicts
+
+All three cases are fictional and labeled so; all three runs were cold — fresh session,
+method files and one case only, first output kept unedited. Two of the kits were written
+blind, by sessions (one from a different AI entirely) that had never seen this method.
+
+| Case | The engagement | Primary cause found | Transcript |
+| --- | --- | --- | --- |
+| `demo-case/` | €900 studio rebrand, client named the price first | The unpriced offer — no price of her own existed anywhere | `cases/demo-case/transcript.md` |
+| `demo-case-2/` | €850 launch video, quoted at 00:14 with rent due | Necessity — no walk-away price could exist | `cases/demo-case-2/transcript.md` |
+| `demo-case-3/` | €750 site refresh, quoted before opening the backend | Price before scope — own written condition never enforced | `cases/demo-case-3/transcript.md` |
+
+Each run also argued explicitly *against* the causes the other cases concluded — the
+third case ruled out necessity (the developer had savings and booked work) and the
+unpriced offer (he owned a day rate) before landing on the pricing moment. Same method,
+different evidence, different answers. `demo-case-3/transcript.md` shows the current
+rules — plain language, spoken to the person — and is the best single thing to read.
+
 ---
 
 ## Example 1 — the €900 rebrand (real run, fictional engagement)
@@ -53,24 +76,25 @@ each answered "sure, easy to add."
 
 ```text
 DIAGNOSIS
-Primary cause: the price was agreed for a two-item deliverable before the client's
-process had been mapped, so the eleven-item system that mapping revealed was built for
-free (F2, price before scope).
+Primary cause: the price was agreed before anyone knew what the work contained — the
+number was fixed for a two-item deliverable before the client's process had been
+mapped, so the eleven-item system that mapping revealed was built for free (price
+before scope, F2 in the reference).
 
 HOW I KNOW
 - The invoice covers 41 hours against a price set in the message "€480 for the
   client-intake form and the follow-up emails, yes?" — sent on day 2, before any
   process mapping.
-- The four scope additions were absorbed without re-pricing — but silent growth (F8) is
+- The four scope additions were absorbed without re-pricing — but silent growth is
   downstream here: the priced scope was two lines long, so there was nothing for the
   additions to be measured against.
 - At double the rate this engagement still loses: 9 of the 11 delivered items were
   never in the priced scope at all. The rate is not the broken link.
 
 CONTRIBUTING (not primary)
-- F8 silent scope growth — real, but only possible because no priced scope existed.
-- F5 effort-priced outcome work — would cap the upside even with correct scoping; did
-  not cause this loss.
+- Silent scope growth (F8) — real, but only possible because no priced scope existed.
+- Outcome work priced as hours (F5) — would cap the upside even with correct scoping;
+  did not cause this loss.
 
 WHAT THIS DIAGNOSIS CANNOT TELL YOU
 Whether the client would have accepted a scoped price — the thread contains no signal
