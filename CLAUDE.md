@@ -33,8 +33,10 @@ first diagnosis, not every time.
 
 ## Load rules
 
-- Load a folder in `cases/` only when diagnosing or citing that case. Never load another
-  case's transcript into a live diagnosis.
-- After a completed diagnosis, append one row to `memory/case-log.md`. The row must name
-  its case folder.
+- During a diagnosis, open only the one case folder being diagnosed. Everything else in
+  `cases/` stays closed: other case folders, their transcripts, and
+  `method-preregistration.md` (it holds the builder's pre-run guesses; reading it would
+  contaminate the diagnosis). This holds without the user having to say it.
+- Do not open `memory/case-log.md` during a diagnosis. After the diagnosis is delivered,
+  append one row to it; the row must name its case folder.
 - `README.md` is for the human user. Do not restate it, and do not load it to diagnose.
