@@ -52,7 +52,7 @@ first diagnosis, not every time.
 - When the user asks to diagnose an engagement, ask one question first: new case, or an
   existing folder in `cases/`? Never search case folders' contents to find a client or
   case — other cases stay closed, always. New case: copy `cases/_template-case/` to
-  `cases/case-<name>/`, naming it for the engagement (`case-gabi`, `case-webshop`) —
+  `cases/case-<name>/`, naming it for the engagement (`case-bakery`, `case-webshop`) —
   real cases are private and never published, so real names are fine and clearer.
   Fictional demos are `demo-case-<n>`. Then run the intake from `rules.md` §1, one
   field at a time. Do not wander first: read order, one question, intake.
