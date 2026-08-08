@@ -17,9 +17,14 @@ drafted proposal whose price nobody checked against anything.
 ## How to use it
 
 1. Drop this folder into a Claude project, or open Claude Code inside it.
-2. Bring one finished engagement. Not a live one, not a hypothetical.
-3. Give it the four artifacts below. It refuses to start without them, because a
-   diagnosis without evidence is a guess.
+2. Pick one finished job that still bothers you. A website you built, a rebrand, a
+   video edit, a launch campaign, a discovery phase that went nowhere — any client work
+   where the invoice is paid or written off and you know, from the hours or the
+   resentment, that the price was wrong. Finished matters: the diagnosis works backward
+   from how things ended. Not a live project, not a hypothetical.
+3. Start with one line: **"I want to diagnose a finished engagement."** Then hand over
+   the four artifacts below — it will ask for whatever is missing, and it refuses to
+   start without them, because a diagnosis without evidence is a guess.
 
 ## What to feed it
 
