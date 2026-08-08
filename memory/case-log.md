@@ -14,6 +14,7 @@ transcript has a row here. A row without a folder, or a folder without a row, is
 | --- | --- | --- | --- | --- | --- |
 | — | `cases/case-a/` | AI consulting (design/build) | *pending run* | | |
 | — | `cases/case-b/` | AI consulting (discovery phase) | *pending run* | | |
+| 2026-08-08 | `cases/demo-case/` | Brand design (fictional demo) | F9 — the unpriced offer | F1, F2, F8, F6, F11 | — (no pre-run guess for demo) |
 
 ## Pattern notes
 
