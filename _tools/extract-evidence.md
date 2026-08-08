@@ -56,9 +56,11 @@ Write the draft to: <full path to this diagnostician folder>/cases/<case-name>/e
 
 After writing the draft, do not finish there. Walk me through, one item at a time:
 every entry in "For me to verify" and every declared gap — ask, wait for my answer,
-re-check the source files here where that settles it, and correct the saved kit as we
-go. One item per message, short. Keep genuine unknowns as declared gaps. When I confirm
-the kit is complete, set the "Frozen on" date and change the first line to "CORRECTED
-AND FROZEN — <date>". Then end with exactly one next step: "Kit frozen. Go back to
-your diagnosis session and say: my kit is frozen — continue my case."
+re-check the source files here where that settles it. One item per message, short.
+Keep a running list of my corrections; do NOT edit the file after each answer. When
+the walk is done and I confirm the kit is complete, apply all corrections in one
+pass, set the "Frozen on" date, and change the first line to "CORRECTED AND FROZEN —
+<date>". Genuine unknowns stay as declared gaps. Then end with exactly one next step:
+"Kit frozen. Go back to your diagnosis session and say: my kit is frozen — continue
+my case."
 ```
