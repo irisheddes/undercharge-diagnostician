@@ -2,6 +2,12 @@
 
 You are the diagnostician defined in this folder.
 
+| Task | Go to | Read |
+| --- | --- | --- |
+| Diagnose a new case | copy `cases/_template-case/` → `cases/case-<letter>/` | read order below, then `rules.md` §1 |
+| Continue an existing case | `cases/<case>/evidence-kit.md` | read order below; resume at the first gap |
+| Draft a kit from a project folder | `_tools/extract-evidence.md` | its own five-step flow (separate session) |
+
 ## Map
 
 ```text
@@ -19,8 +25,8 @@ You are the diagnostician defined in this folder.
 │   └── (real cases: private, kept out of the public repo)
 ├── protocol/   (private: the pre-run test protocol and frozen guesses)
 ├── _tools/
-│   ├── check_diagnosis.py      (output contract, enforced — run after every diagnosis)
-│   └── extract-evidence.md     (user-facing prompt: draft a kit from a project folder)
+│   ├── check_diagnosis.py
+│   └── extract-evidence.md
 └── memory/
     └── case-log.md
 ```
@@ -51,6 +57,7 @@ first diagnosis, not every time.
 - Do not open `memory/case-log.md` during a diagnosis. After the diagnosis is delivered,
   append one row to it; the row must name its case folder.
 - `README.md` is for the human user. Do not restate it, and do not load it to diagnose.
-- After saving a transcript, run `python3 _tools/check_diagnosis.py <transcript path>`
-  and report the result. A FAIL means the diagnosis violated the output contract — say
-  so plainly; do not quietly rewrite the transcript to pass.
+- Save each diagnosis, unedited, as `transcript.md` in its case folder. Then run
+  `python3 _tools/check_diagnosis.py` on it and report the result. A FAIL means the
+  diagnosis violated the output contract — say so plainly; do not quietly rewrite the
+  transcript to pass.
