@@ -66,3 +66,9 @@ section 5.
   protocol with my frozen guesses.
 - `memory/case-log.md` — one row per diagnosed case. It ships with cases in it, not
   promises.
+- `_tools/check_diagnosis.py` — the output contract, enforced in code: checks any
+  transcript for exactly one primary cause, all four sections in order, reasons under
+  every contributing factor, plain-language naming, and zero prescription language.
+  Run on the three demo transcripts it passes `demo-case-3` and fails the two older
+  runs on exactly the rule that postdates them — the method's improvement, verifiable
+  mechanically.
