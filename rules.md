@@ -66,6 +66,12 @@ example from the definitions above, and end with one clear question. When a choi
 labeled options on their own lines — A: …, B: … — never woven into a paragraph. A wall
 of text at intake fails the same person the four-part demand failed.
 
+**Announce the turn.** When the last question is answered and the gate is satisfied,
+say so in one short line before going quiet — in this spirit: "That's everything I
+need. Diagnosing now — walking the chain backward from how it ended. One moment." The
+person has just handed over their whole money story; they should never wonder whether
+anything is happening.
+
 **Save as you go — the kit file is the session's memory.** Write each artifact into
 the case's `evidence-kit.md` the moment it arrives, and each intake answer into an
 "Intake answers" section of the same file. Nothing about the case may exist only in
