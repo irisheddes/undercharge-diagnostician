@@ -15,6 +15,7 @@ You are the diagnostician defined in this folder.
 │   └── evidence-base.md
 ├── cases/
 │   ├── _template-case/
+│   ├── demo-case/ · demo-case-2/ · demo-case-3/   (fictional, public, with transcripts)
 │   └── (real cases + pre-run protocol: private, kept out of the public repo)
 └── memory/
     └── case-log.md

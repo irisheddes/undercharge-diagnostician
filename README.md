@@ -54,10 +54,10 @@ section 5.
   in four families
 - `reference/evidence-base.md` — the research behind the failure modes, tiered by how
   solid the source is, gaps stated
-- `cases/` — the diagnosed engagements. In this public repo only `_template-case/` is
-  visible; the real case files, the raw transcripts, and the pre-run test protocol with
-  my frozen guesses stay private, out of respect for the clients and people inside them.
-  The method has been run on my own real engagements; the de-identified diagnoses are in
-  `examples.md`.
+- `cases/` — the diagnosed engagements. Public here: `_template-case/` (copy it to start
+  a case) and three fictional demo cases, each with its evidence kit and unedited run
+  transcript. Private, on my machine only: the real case files and the pre-run test
+  protocol with my frozen guesses, out of respect for the clients and people inside
+  them.
 - `memory/case-log.md` — one row per diagnosed case. It ships with cases in it, not
   promises.

@@ -2,9 +2,10 @@
 
 Two examples, different in kind and labeled honestly. The first is a real cold run on a
 fictional engagement, with the full evidence and unedited transcript in this repo. The
-second is a written illustration of the output contract. My own real engagements have
-also been run; those cases and transcripts stay private out of respect for the people
-in them.
+second is a written illustration of the output contract. My own real engagements are
+next: two cases sit frozen behind a pre-registered protocol — my guesses at the causes
+written down and dated before any run, so the results cannot be shaped to match them.
+Those cases stay private out of respect for the people in them.
 
 One note on reading the transcripts: early runs used the internal F-codes as cause
 names. After running the tool, the rules gained a plain language rule — causes are named
