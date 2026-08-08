@@ -45,6 +45,18 @@ drafted proposal whose price nobody checked against anything.
    underneath it, and a plain statement of what your evidence cannot show. Then it
    stops.
 
+## If the diagnosis rests on a wrong fact
+
+You are the authority on what happened, and evidence can be corrected. Tell it which
+fact is wrong — "the price wasn't built from the monthly cap; it was set first and
+then split into payments" — and the correction goes into the kit as a dated amendment,
+a fresh session re-runs the case cold, and the new verdict is saved beside the old
+one. Both stay: seeing what changed when one fact changed is part of the diagnosis.
+
+What this is not: a way to re-roll a verdict you dislike. Corrections change facts;
+they don't appeal conclusions. A diagnosis you disagree with, built on facts you
+confirm, stands.
+
 ## What it refuses
 
 Ask "so what should I have charged?" and it declines. That is a consultant's job, not a
