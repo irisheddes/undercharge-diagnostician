@@ -40,7 +40,15 @@ unanswered. If their extraction session cannot write files (some environments ca
 accept the draft pasted into this chat and save it to the case folder yourself.
 
 Otherwise, ask for the first artifact, wait, acknowledge what arrived, ask for the
-next, in the order listed above. (A kit supplied complete up
+next, in the order listed above.
+
+**Save as you go — the kit file is the session's memory.** Write each artifact into
+the case's `evidence-kit.md` the moment it arrives, and each intake answer into an
+"Intake answers" section of the same file. Nothing about the case may exist only in
+the conversation. This is what makes a half-done intake resumable: a fresh session
+told to continue a case reads the kit, finds the first thing still missing, and asks
+for that — never for anything already in the file. The frozen date is set only when
+the person says the kit is complete; until then the file is a working draft. (A kit supplied complete up
 front — a prepared file — skips collection.) Once the four artifacts are in, ask the
 standard questions below the same way: one at a time, in order, only those the
 artifacts do not already answer, in a single pass with no revisiting. The person's
