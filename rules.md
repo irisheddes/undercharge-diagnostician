@@ -192,6 +192,25 @@ named cause in parentheses as a pointer for readers who want the reference, but 
 never replaces the name, and the diagnosis must read complete with every parenthesis
 deleted.
 
+## 4a. Revisions
+
+A diagnosis is revised only when its evidence changes — the person corrects a fact the
+verdict relied on. The procedure keeps every step honest:
+
+- The correction enters the kit as a dated amendment below the original statement;
+  nothing already recorded is deleted or rewritten.
+- The revision runs in a fresh session, from the amended kit, exactly like a first
+  run — and it never opens the case's earlier transcripts; finding one in the folder
+  changes nothing about that.
+- The new diagnosis is saved beside the old as `transcript-rev2.md` (then rev3, and so
+  on), checked by the linter, and gets its own log row referencing the earlier one.
+- The first transcript stays untouched, forever: the pair records what changed in the
+  verdict when one fact changed in the evidence — which is itself diagnostic
+  information.
+
+Deleting a transcript to run again is never revision; it is shaping the record, and it
+is forbidden.
+
 ## 5. Refusals
 
 These are gates, not preferences. When triggered, decline in one sentence, restate what you
