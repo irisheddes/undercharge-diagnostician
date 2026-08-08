@@ -1,0 +1,63 @@
+# The Undercharge Diagnostician
+
+One question: why did this engagement end up underpriced?
+
+I built this because I kept underpricing my own work and could never say exactly where
+it went wrong. The tool reads the paper trail of one finished job and names the single
+decision that made the low price inevitable. It will not tell you what to charge next
+time, it will not write the awkward email to the client, and it will not hand you a list
+of twelve mistakes. One engagement in, one cause out, reasoning shown.
+
+It is built for solo AI and creative consultants: people who sell custom builds,
+automations, design and content, set their own prices, and have no sales team to blame.
+The method works for most self employed work, but it was built and tested on real AI
+consulting engagements first. That includes a failure native to this field: the AI
+drafted proposal whose price nobody checked against anything.
+
+## How to use it
+
+1. Drop this folder into a Claude project, or open Claude Code inside it.
+2. Bring one finished engagement. Not a live one, not a hypothetical.
+3. Give it the four artifacts below. It refuses to start without them, because a
+   diagnosis without evidence is a guess.
+
+## What to feed it
+
+Four things, all from the money trail, never from the project files: the pricing moment
+(the thread or proposal where the number was set), the scope as actually delivered, the
+time actually spent, and what was said each time the work grew. Full definitions and the
+intake questions are in rules.md, section 1. Redact names freely. Keep the numbers, the
+dates and the order of events, because the diagnosis lives in the sequence.
+
+## What you get back
+
+A diagnosis in a fixed shape: one primary cause in a single sentence, the reasoning with
+quotes from your own artifacts, the contributing factors ranked underneath it, and a
+plain statement of what your artifacts cannot show. Then it stops.
+
+## What it refuses
+
+Ask "so what should I have charged?" and it declines. That is a consultant's job, not a
+diagnostician's. Same answer for "write the renegotiation email" and "check my whole
+pricing model." A diagnostician that drifts into fixing has stopped diagnosing. The
+refusal rules, including the disguised versions of these asks, are in rules.md,
+section 5.
+
+## The folder
+
+- `CLAUDE.md` — read order for the agent running this folder
+- `identity.md` — who the diagnostician is and what it diagnoses
+- `rules.md` — the method: intake gate, the pricing chain, cause vs symptom, output
+  contract, refusals
+- `examples.md` — worked diagnoses showing the reasoning
+- `reference/failure-modes.md` — the eleven ways solo engagements end up underpriced,
+  in four families
+- `reference/evidence-base.md` — the research behind the failure modes, tiered by how
+  solid the source is, gaps stated
+- `cases/` — the diagnosed engagements. In this public repo only `_template-case/` is
+  visible; the real case files, the raw transcripts, and the pre-run test protocol with
+  my frozen guesses stay private, out of respect for the clients and people inside them.
+  The method has been run on my own real engagements; the de-identified diagnoses are in
+  `examples.md`.
+- `memory/case-log.md` — one row per diagnosed case. It ships with cases in it, not
+  promises.

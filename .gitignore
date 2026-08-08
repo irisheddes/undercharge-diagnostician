@@ -1,0 +1,4 @@
+# Private: real case material stays local. The method is public; the patients are not.
+cases/*
+!cases/_template-case/
+!cases/_template-case/**
