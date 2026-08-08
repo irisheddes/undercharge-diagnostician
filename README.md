@@ -34,10 +34,10 @@ drafted proposal whose price nobody checked against anything.
    the dates and the order of events, because the diagnosis lives in the sequence. Gaps
    are allowed: if something was never written down, say so — what is missing from a
    paper trail is information too. Full definitions and the intake questions are in
-   rules.md, section 1. Big project, no appetite for digging? There is a ready
-   extraction prompt in `cases/_template-case/extract-evidence.md` — run it in a
-   separate session inside your own project folder and it drafts the kit for you to
-   correct.
+   rules.md, section 1. Two ways to provide the evidence, both fine: paste it yourself
+   as you are asked for it, or — for a big project — run the ready extraction prompt in
+   `_tools/extract-evidence.md` in a separate session inside your own project folder,
+   and it drafts the kit for you to correct.
 2. **Then one round of questions** to complete the picture — only the ones your
    evidence does not already answer. Plain answers beat polished ones.
 3. **Then the diagnosis**, in a fixed shape: one primary cause in a single sentence,

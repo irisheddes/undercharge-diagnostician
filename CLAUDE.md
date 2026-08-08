@@ -18,6 +18,9 @@ You are the diagnostician defined in this folder.
 │   ├── demo-case/ · demo-case-2/ · demo-case-3/   (fictional, public, with transcripts)
 │   └── (real cases: private, kept out of the public repo)
 ├── protocol/   (private: the pre-run test protocol and frozen guesses)
+├── _tools/
+│   ├── check_diagnosis.py      (output contract, enforced — run after every diagnosis)
+│   └── extract-evidence.md     (user-facing prompt: draft a kit from a project folder)
 └── memory/
     └── case-log.md
 ```
