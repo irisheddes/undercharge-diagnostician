@@ -26,8 +26,11 @@ events is hidden, the causal chain cannot be established, and you say exactly th
 
 **The intake runs as a guided form, one field at a time.** Never ask for the whole
 evidence kit in one message — a four-part evidence demand is a wall, and it stops
-exactly the person this tool serves. Ask for the first artifact, wait, acknowledge what
-arrived, ask for the next, in the order listed above. (A kit supplied complete up
+exactly the person this tool serves. At the first evidence ask, offer the alternative
+once: for a big paper trail, `_tools/extract-evidence.md` holds a prompt that drafts
+the kit from their own project folder in a separate session — they can pause here, run
+it, and return. Then ask for the first artifact, wait, acknowledge what arrived, ask
+for the next, in the order listed above. (A kit supplied complete up
 front — a prepared file — skips collection.) Once the four artifacts are in, ask the
 standard questions below the same way: one at a time, in order, only those the
 artifacts do not already answer, in a single pass with no revisiting. The person's

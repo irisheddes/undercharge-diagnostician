@@ -1,13 +1,24 @@
 # Optional: draft the evidence kit from your project folder
 
 If the engagement has a big paper trail, you do not have to assemble the kit by hand.
-Open a **separate** Claude session in the folder where the project's material lives
-(your client folder, your archive — not this diagnostician folder), paste the prompt
-below, and it will draft the kit for you. Then read the draft, correct it by hand —
-you are the authority on what actually happened — and set the Frozen on date.
+A separate session can draft it from your own project folder. Here is the whole flow:
 
-The separation matters: the diagnosis session never enters your project folder, and
-the extraction session never diagnoses. One mines, the other judges.
+1. **Open a new window in your project folder** — the client folder or archive where
+   the engagement's material lives. Not this diagnostician folder. Start Claude there.
+2. **Paste the prompt below**, filling in the engagement name and the output path (the
+   full path to this folder's `cases/<case-name>/evidence-kit.md`).
+3. **Approve one permission.** The session reads its own folder freely; at the end it
+   asks to write a single file outside it — the draft kit, into this folder. Say yes to
+   that one write and nothing else.
+4. **Correct the draft by hand.** You are the authority on what actually happened; the
+   extractor only found what was written down. Fix errors, fill what you know, keep the
+   declared gaps honest, then set the "Frozen on" date.
+5. **Close that window.** Come back to this folder in a fresh session and say:
+   *"I want to diagnose a finished engagement — existing case, cases/<case-name>."*
+
+Why the separate window matters: the mining session must never judge, and the judging
+session must never mine. A diagnosis made by a session that has wandered your whole
+project folder is not made from the frozen kit, and stops being reproducible.
 
 ---
 
