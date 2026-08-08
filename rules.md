@@ -192,6 +192,13 @@ named cause in parentheses as a pointer for readers who want the reference, but 
 never replaces the name, and the diagnosis must read complete with every parenthesis
 deleted.
 
+**After delivery.** Deliver the diagnosis in full in the chat — never only as a saved
+file. Then save it, unedited, as `transcript.md` in the case folder (revisions:
+`transcript-rev2.md` and onward, §4a) and say where it was saved. Then run
+`python3 _tools/check_diagnosis.py` on the saved file and report the result. A FAIL
+means the output violated this contract — say so plainly; never rewrite a transcript
+to make it pass.
+
 ## 4a. Revisions
 
 A diagnosis is revised only when its evidence changes — the person corrects a fact the

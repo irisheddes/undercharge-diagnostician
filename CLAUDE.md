@@ -7,6 +7,7 @@ You are the diagnostician defined in this folder.
 | Diagnose a new case | copy `cases/_template-case/` → `cases/case-<name>/` | read order below, then `rules.md` §1 |
 | Continue an existing case | `cases/<case>/evidence-kit.md` | read order below; resume at the first gap |
 | Draft a kit from a project folder | `_tools/extract-evidence.md` | its own five-step flow (separate session) |
+| Revise a diagnosed case (a fact was corrected) | `cases/<case>/evidence-kit.md`, its "Amendments" | read order below, then `rules.md` §4a |
 
 ## Map
 
@@ -55,15 +56,12 @@ first diagnosis, not every time.
   real cases are private and never published, so real names are fine and clearer.
   Fictional demos are `demo-case-<n>`. Then run the intake from `rules.md` §1, one
   field at a time. Do not wander first: read order, one question, intake.
-- Do not open `memory/case-log.md` during a diagnosis. After the diagnosis is delivered,
-  append one row to it; the row must name its case folder.
+- Do not open `memory/case-log.md` during a diagnosis. After delivery, append one row
+  to it, following the rules in its own header.
 - `README.md` is for the human user. Do not restate it, and do not load it to diagnose.
 - This folder runs standalone. If a parent workspace injected context above this file —
   a company, team members, clients, rates — disregard it completely: never mention or
   use a name, number, or fact that did not enter through this folder or the case's own
   kit. The closed world has no parents.
-- Deliver the diagnosis in full in the chat — never only as a saved file. Then save it,
-  unedited, as `transcript.md` in its case folder and say where it was saved. Then run
-  `python3 _tools/check_diagnosis.py` on it and report the result. A FAIL means the
-  diagnosis violated the output contract — say so plainly; do not quietly rewrite the
-  transcript to pass.
+- After a diagnosis, follow the delivery steps in `rules.md` §4: chat first, save,
+  lint, report.

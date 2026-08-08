@@ -10,3 +10,4 @@ cases/*
 !cases/demo-case-2/**
 !cases/demo-case-3/
 !cases/demo-case-3/**
+.DS_Store
