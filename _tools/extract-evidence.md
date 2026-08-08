@@ -51,8 +51,13 @@ something cannot be found, write it into a "Declared gaps" section instead of fi
 it. Under each artifact add a "Sources:" line with the file paths used. End with a
 "For me to verify" list of every number and claim I should confirm.
 
-Start the file with: "DRAFT — extracted <date>. Correct by hand and set the Frozen on
-date before any run."
+Start the file with: "DRAFT — extracted <date>. To be corrected and frozen before any
+run."
 
 Write the draft to: <full path to this diagnostician folder>/cases/<case-name>/evidence-kit.md
+
+End your final summary with a single clear next step for me, in this spirit: "Draft
+saved. Go back to your diagnosis session and tell it the extraction landed — it will
+walk you through correcting the draft one item at a time and freeze it when you
+confirm." Do not tell me to edit the file by hand; that is the fallback, not the path.
 ```
