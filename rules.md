@@ -52,7 +52,10 @@ walk its "For me to verify" and "Declared gaps" sections in this chat, one item 
 time, applying the person's corrections to the kit file as they answer; hand-editing
 stays available; the frozen date is set only when they confirm the kit is complete.
 Either way, once the kit is frozen the intake resumes from whatever it still leaves
-unanswered. If their extraction
+unanswered. **Frozen never skips the gate:** every kit, however it arrived, is read in
+full and checked against the intake gate — four artifacts, sequence intact, enough to
+walk the chain — before any diagnosis begins. Frozen settles the facts; the gate
+judges their sufficiency. If their extraction
 session cannot write files (some environments cannot), accept the draft pasted into
 this chat and save it to the case folder yourself.
 
