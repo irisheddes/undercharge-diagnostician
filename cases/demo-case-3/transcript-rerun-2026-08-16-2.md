@@ -1,0 +1,30 @@
+DIAGNOSIS
+Primary cause: the work grew past the five priced items twelve times and the price was never spoken of again — each request was answered with the work itself, never with a number, so a €750 five-item tidy-up quietly became a full site rebuild at the tidy-up's fee (silent scope growth, F8 in the reference).
+
+HOW I KNOW
+Walking the chain backward from the invoice:
+
+- The invoice bills exactly the number fixed on 4 April — “Agreed project fee”, €750 — against a reconstructed total of “about 55 hours”. That is under €14 an hour from a developer whose “usual day rate at that time was €480”. The loss is real; the question is where it entered the chain.
+
+- The scope-shift record answers it. Twelve dated entries sit between 8 and 27 April — two extra projects, nine older portfolio pages rebuilt to match, a Press page, a rewritten homepage intro, an Approach page, replacement images, a cookie banner, analytics repair, an SEO freelancer's task list, a 51-minute revision call, a training video — and every one of them closes with the same line: “No revised price was discussed.” After launch there was a thirteenth, where “No additional invoice was sent.” Not once in four weeks did the growth of the work produce a sentence about the price of the work.
+
+- The hours say the same thing. Of the roughly 55 reconstructed hours, only about 16 map to the items the €750 covered — “Estimated setup total: 4 hr 40 min” plus “Original page-work total: about 11 hr 30 min”. The rest arrived after the price was fixed: “Additional portfolio total: about 13 hr 20 min”, “Additional pages total: about 3 hr 15 min”, and large shares of the technical, communication and aftercare blocks trace to the same requests. The rate is not the broken link: at his own full day rate the five priced items come to about two days of work, so the quote ran modestly low at worst — and no rate survives roughly 39 hours that were attached to no price at all.
+
+- The pattern was set within hours of agreement. The quote carried one guard: “If the existing setup is in reasonable shape and we’re working within the current theme”. At 08:17 on 5 April Clara wrote “€750 is fine”; at 11:14 she wrote “Pls ignore the mess in the backend”, and Elias answered “haha noted”. The one condition built into the price was tested the same morning it was accepted, and waived with a joke. From then on every request met the same shape — “Not annoying. Send me the material and I’ll include them.”, “Sure, that’s straightforward”, “Yep.”
+
+- The earlier links hold, which is what makes the scope shifts the earliest break. The decision to take the job was not necessity: “He had no overdue rent, debt payments or urgent bills when he accepted the job”, “Harbor & Field was not needed to cover an immediate financial shortfall”, he held about “€19,000 in personal and business savings combined” and “approximately €4,400 of confirmed work” already booked. The scope at pricing time was written down before the number: Clara's five-item list came first, the €750 second, “for the items you listed”. And the anchor existed — Elias spoke the first number, sized against his own established day rate. Internal, but real, and his.
+
+CONTRIBUTING (not primary)
+- The price was fixed sight-unseen — “He did not log into the WordPress backend until after the price had already been accepted” — not primary because the backend's surprises (a plugin conflict, a slow homepage, mixed-content warnings) account for a small slice of the overrun; a price set after inspection would have been eaten by the same twelve unpriced additions.
+- The rate stayed invisible — he had a day rate “but he did not send it to Harbor & Field”, and his website “gave no pricing” (a partial form of F9, the unpriced offer) — not primary because a visible rate is only a tool for the conversation that never happened; any of the twelve moments could have carried a number without one.
+- Outcome work priced as effort (F5) — the portfolio template was still in use more than two years later and “The client continued adding new projects using the template Elias built” — not primary because it caps what a well-guarded fixed price could have captured; this engagement's loss came from unguarded growth, not from that cap.
+
+WHAT THIS DIAGNOSIS CANNOT TELL YOU
+Whether Clara would have agreed to a revised price at any of the twelve moments — the thread shows warmth throughout and “The client paid the invoice the following morning”, but a willingness that was never tested leaves no evidence either way. Whether the referral through Tomás shaped the silence — the tone is friendly, but the artifacts hold no pricing language tied to the relationship, so nothing shows this client was treated differently than a stranger would have been. And the true size of the loss — the hours are reconstructed, Elias believes small scattered checks went uncounted, and some voice notes are unrecoverable “because some of them were later deleted from the chat”, so 55 hours is a floor, not a total.
+
+---
+
+RUN RECORD (builder-facing, rules.md §4b)
+- Type: re-run on the frozen kit; nothing amended; requested by the user on 2026-08-16. Saved with a -2 suffix because a rerun file dated this same day already existed in the folder; that file was not opened.
+- What this run could see: the read-order files (identity.md, rules.md, both reference files), examples.md, the case's evidence-kit.md in full, _tools/check_diagnosis.py, and the file names in cases/demo-case-3/. It did not open transcript.md, transcript-rerun-2026-08-16.md, refusal-round.md, README.md, memory/case-log.md, protocol/, _coldrun/, or _tools/fixtures/ before this diagnosis was composed, checked, and saved; the case log was opened only afterward, to append its row. Parent-workspace context injected above this folder was disregarded.
+- Nothing read names this case's verdict; examples.md names only the first demo case's. Within those limits this run was cold on content, with one caveat on the record: the existence of a same-day rerun file was visible in the folder listing.

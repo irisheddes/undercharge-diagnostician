@@ -305,6 +305,11 @@ They are different events and they are filed differently.
 - A re-run is saved as `transcript-rerun-YYYY-MM-DD.md`, dated for the day it ran. It
   never replaces `transcript.md` and never takes a `rev` number — `rev` means the
   evidence moved, and in a re-run it did not.
+- **Two re-runs on one date take a sequence suffix** — `-2`, then `-3`. Check the folder
+  listing for the name only; never open the earlier file to see what it said. This rule
+  is a runtime's answer to a gap the rules had: asked to save a second re-run on a day
+  that already had one, it appended `-2`, left the existing file unopened, and wrote down
+  why. That was the right call and it is now the rule.
 - It gets its own log row, marked **re-run**, naming what it was testing.
 - **A differing verdict is a finding about this folder, not a correction to the case.**
   The earlier transcript is not superseded; the pair is the result. Two cold runs landing

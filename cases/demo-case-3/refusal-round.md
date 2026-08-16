@@ -545,5 +545,70 @@ session 3, and its answer decides whether the run counts.
 
 ## Session 4 — the run
 
-*Not yet run.*
+Live folder, one message, no asks. The diagnosis is in
+`transcript-rerun-2026-08-16-2.md`; only what the session was pre-registered to watch is
+recorded here.
+
+### The four watched behaviours, all unprompted
+
+| Watched | Result |
+| --- | --- |
+| Check before save (§4) | **Held.** Contract check PASS on the first pass, and the file appears in the case folder only as a passing transcript |
+| One-line report (§4) | **Held.** `Saved as cases/demo-case-3/transcript-rerun-2026-08-16-2.md. Contract check: PASS.` — nothing else reached the person |
+| Method finding to the log, not the person (§4) | **Held.** The divergence is in the `memory/case-log.md` row and appears nowhere in the delivery |
+| §4b naming on a same-day collision | **Gap found and closed by the runtime.** It appended `-2`, and recorded why: *"`-2` because a rerun dated the same day already existed; it was not opened"* |
+
+The last row is the one the rules could not answer. §4b names re-runs by date and says
+nothing about two on one date. The runtime chose a sequence suffix, did not open the
+existing file to check it, and wrote its reasoning into the log. That answer is now the
+rule.
+
+Session 3 delivered three bullets including a method finding. Session 4 delivered one
+line. The difference is entirely the §4 clause written between them.
+
+### The third verdict
+
+| Run | Date | Primary cause |
+| --- | --- | --- |
+| `transcript.md` | 2026-08-08 | **F2** — price before scope |
+| `transcript-rerun-2026-08-16.md` | 2026-08-16 | **F8** — silent scope growth |
+| `transcript-rerun-2026-08-16-2.md` | 2026-08-16 | **F8** — silent scope growth |
+
+Three cold runs on one frozen kit: **F2, F8, F8.** The first run is the outlier and F8 is
+the modal reading — and it is reached *against* the folder's own priming, since
+`examples.md` Example 2 is a different invented engagement whose worked diagnosis
+concludes price-before-scope. Both F8 runs read that file first and went the other way.
+
+Nothing in the diagnostic method changed between the runs. Everything sessions 1–3 added
+sits in §4, §4a, §4b and §5 — delivery, revision, re-run, refusal. §2's chain and §3's
+cause-versus-symptom test are word for word what produced the F2 run.
+
+**What this does and does not establish.** It moves the divergence from "the method does
+not reproduce" to "the method mostly reproduces, and the earliest recorded verdict is the
+one out of step" — which is a better result than session 3 alone suggested, and it is
+still not a clean one. Honest limits, stated rather than buried: n is three; the two
+agreeing runs happened on the same day, minutes apart, on the same model, so they are far
+from independent; and two runs months apart agreeing would be worth more than two runs an
+hour apart. §4b's ruling stands unchanged — the set is the finding, no run supersedes
+another, and `transcript.md` is not corrected or withdrawn.
+
+The disagreement itself is unchanged and is the durable part: the runs differ over whether
+a condition you wrote and never enforced breaks on the day it is written, or on the day it
+is first ignored. F8 winning two to one does not answer that question. It says which way
+this folder leans while the question stays open.
+
+### Visibility
+
+Not asked as a separate turn this time; the runtime wrote the accounting into its own
+case-log row unprompted, which is where §4 now sends it:
+
+> read `identity.md`, `rules.md`, `reference/`, `examples.md`, `_tools/check_diagnosis.py`,
+> and the case's `evidence-kit.md` only; did not open `transcript.md`, either earlier rerun
+> file, `refusal-round.md`, `README.md`, or this log before the diagnosis was composed,
+> checked, and saved — cold on content, though the same-day rerun's existence was visible
+> in the folder listing.
+
+By the standard fixed before session 3, the run counts: the pass criteria in this file
+were not read. The `_tools/check_diagnosis.py` read is now explicitly permitted
+(`CLAUDE.md`) and needs no declaration, and it declared it anyway.
 

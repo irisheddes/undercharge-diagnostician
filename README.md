@@ -99,18 +99,32 @@ kept unedited.
 The commits are in that order on purpose: the failure is committed before the rule that
 closes it, so which came first is checkable rather than claimed.
 
-### Two cold runs on the same evidence disagreed
+### Three cold runs on the same evidence, and they do not all agree
 
-`demo-case-3` has been diagnosed twice from the identical frozen kit, months apart, the
-second time by a session that never opened the first transcript. They reached **different
-primary causes** — price-before-scope, then silent-scope-growth — and each examined the
-other's answer and ranked it second. Both pass the contract check.
+`demo-case-3` has been diagnosed three times from the identical frozen kit — once in
+August, twice more a week later by sessions that never opened the earlier transcripts.
 
-Neither is superseded. `rules.md` §4b, written before the second run, says a differing
-verdict is a finding about the folder and not a correction to the case, so the pair is
-kept as the result. It locates the method's weakest joint precisely: §2 asks which link
-broke *earliest*, and the two runs disagree about whether a condition you wrote and never
-enforced breaks on the day it is written or the day it is first ignored.
+| Run | Primary cause |
+| --- | --- |
+| `transcript.md` | Price before scope |
+| `transcript-rerun-2026-08-16.md` | Silent scope growth |
+| `transcript-rerun-2026-08-16-2.md` | Silent scope growth |
+
+Each run examined the others' answer on its own and ranked it second. All three pass the
+contract check. Nothing in the diagnostic method changed between them.
+
+No run is superseded or withdrawn. `rules.md` §4b, written before the second one, says a
+differing verdict is a finding about the folder rather than a correction to the case, so
+the set is kept as the result. It locates the weakest joint precisely: §2 asks which link
+broke *earliest*, and the runs disagree about whether a condition you wrote and never
+enforced breaks on the day it is written or the day it is first ignored. Two-to-one does
+not settle that; it only says which way this folder leans.
+
+Two things worth knowing about the two-to-one. It is reached **against** the folder's own
+priming — `examples.md` carries a worked example of a different engagement that concludes
+price-before-scope, and both dissenting runs read it first and went the other way. And it
+is thin: three runs, two of them minutes apart on the same model, which is far from
+independent.
 
 That is the honest limit of this tool, found by its own rule, and it is on the front page
 rather than in a footnote.
