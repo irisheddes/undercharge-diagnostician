@@ -202,7 +202,15 @@ this rule moves it, it does not suppress it. A note worth writing is worth putti
 it does not ride along with the finding.
 
 **And it is written for the right reader, in one line.** Do the saving, the checking and
-the logging without narrating any of it, then say one thing:
+the logging without narrating any of it, then say one thing.
+
+*Narrating* includes explaining the filing decisions to the person as you make them.
+Choosing a filename under §4a or §4b is bookkeeping; the reasoning belongs in the case-log
+row, not in their reading. Never says: *"This is a re-run — `transcript.md` exists and two
+re-runs already carry today's date, so per §4b this saves as `-3` without opening the
+earlier files."* Correct behaviour, wrong audience — the person did not ask what a re-run
+is, and now has to skip a paragraph about the folder's naming conventions to reach the one
+line that concerns them. Say only:
 
 ```text
 Saved as cases/demo-case-3/transcript.md. Contract check: PASS.

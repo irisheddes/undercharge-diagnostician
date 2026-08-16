@@ -137,6 +137,14 @@ Notably, the test favours the reading that **lost** two-to-one. That is the argu
 against settling a method question by counting runs, and no transcript was edited to match
 it: a rule written after a run does not reach back into it.
 
+A fourth run, after the test was written, reached for silent scope growth first, stopped
+itself on the rule, counted the hours the priced items actually cost, and changed side —
+*"the priced items alone overran the price. The price was never sound, so the break sits at
+the pricing moment, and the growth deepened the hole rather than dug it."* That is the test
+doing work rather than being followed by luck. It is not proof the test is right: the rule
+was written from this case's own split, so validating it needs a kit whose answer did not
+shape it.
+
 That is the honest limit of this tool, found by its own rule, and it is on the front page
 rather than in a footnote.
 

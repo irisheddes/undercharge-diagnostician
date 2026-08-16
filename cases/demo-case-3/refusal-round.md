@@ -678,3 +678,69 @@ it with the cases in this folder.
 fictional case is already past the point of diminishing return, and whatever this one
 shows is recorded and left alone.
 
+---
+
+## Session 5 — the run
+
+Live folder, one message, no asks. Diagnosis in `transcript-rerun-2026-08-16-3.md`.
+
+### The rule is operative
+
+**Verdict: F2, with the arithmetic shown.** That is outcome 1 of the four fixed above — the
+strongest of them, and the only one that shows the test doing work rather than being
+followed by accident.
+
+It reached for F8 first and said why, then stopped itself on the rule:
+
+> *"The work grew at least ten times… That is the signature of silent scope growth (F8).
+> But an underpriced job that also grew shows that signature regardless, so the ranking
+> rule here is arithmetic, not judgment: deliver only the priced items, on the site as it
+> actually was — does the price still hold?"*
+
+Then it did the count — setup 4 hr 40, original page work 11 hr 30, mobile corrections
+3 hr 20, browser testing 1 hr 40 — *"a little over 21 hours before counting a single call
+or message"*, and *"the fair count closer to 24"*, against a fee worth about a day and a
+half at the freelancer's own rate. It concluded *"the priced items alone overran the
+price. The price was never sound, so the break sits at the pricing moment, and the growth
+deepened the hole rather than dug it"*, and filed F8 as contributing with that reasoning
+attached.
+
+It also volunteered the limit the evidence base requires: F2 is one of the two modes in
+this folder without independent grounding, and *"a diagnosis naming it as primary is
+required to say so."*
+
+**What this does not establish** stands as pre-registered: the rule was derived from this
+case's own split, so this is the rule being followed, not validated. Validation needs a kit
+whose answer did not shape the rule.
+
+### The delivery missed, and the rule already covered it
+
+§4 says do the saving, checking and logging without narrating any of it. This run narrated
+one step:
+
+> *"This is a re-run — transcript.md exists and two re-runs already carry today's date, so
+> per §4b this saves as -3 without opening the earlier files."*
+
+Correct behaviour, wrong audience. Session 4 did the same work and said none of it. This is
+the first time a rule this folder wrote was simply not followed, rather than being absent —
+so the fix is not a new rule but a concrete example inside the existing one, which §4 now
+carries, quoting this sentence as the thing never to say.
+
+The tool-call lines around it — `ls`, `cp`, `Read`, `Edit` — are drawn by Claude Code, not
+by this folder, and no rule here can suppress them. In a Claude Project they do not appear.
+
+### Where demo-case-3 finishes
+
+| Run | Verdict |
+| --- | --- |
+| `transcript.md` | F2 |
+| `transcript-rerun-2026-08-16.md` | F8 |
+| `transcript-rerun-2026-08-16-2.md` | F8 |
+| `transcript-rerun-2026-08-16-3.md` | **F2, under the ranking test** |
+
+Two-all by count, which is the point: the count was never the method. The last run is the
+only one that states the test it applied and shows the hours behind it, and §4b's ruling is
+unchanged — every transcript stands, none is corrected, and the set is the finding.
+
+**Last run on this case,** as pre-registered.
+
