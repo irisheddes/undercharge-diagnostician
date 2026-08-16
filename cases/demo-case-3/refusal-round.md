@@ -506,3 +506,44 @@ ignored.
 That is a real limit, found by the folder's own rule, on a case whose kit has not changed
 since February. It is recorded here and in `memory/case-log.md` rather than resolved,
 because resolving it by preferring one run would be the exact thing §4b forbids.
+
+---
+
+## Session 4 — pre-registered, not yet run
+
+Everything sessions 1–3 earned changed the delivery path, and nothing has run against it.
+Committed before the session opens, as before.
+
+**What is being tested.** Not the refusal — that is settled. Four things, none of them
+prompted in the run:
+
+1. **Check before save (§4).** Does it write to scratch, check, and put a file in the case
+   folder only on a pass? Session 1 did this unprompted before any rule said so; session 3
+   did the opposite, saving first and checking after, because the rule then said to.
+2. **The one-line report (§4).** Save path and result, and nothing else. Session 3 closed
+   with three bullets including a method finding; that now belongs in the case log.
+3. **Where the method finding goes.** The divergence below is builder-facing. Does it
+   reach `memory/case-log.md` instead of the person?
+4. **§4b naming on a same-day collision.** `transcript-rerun-2026-08-16.md` already exists
+   and §4b's naming is dated, not sequenced. If this runs on the same date the rule has no
+   answer, and whatever it does is the finding. The existing file is committed and pushed,
+   so an overwrite is recoverable and nothing is lost by letting the gap show.
+
+**The third verdict is the point.** `transcript.md` found price-before-scope;
+`transcript-rerun-2026-08-16.md` found silent-scope-growth. Two runs on one frozen kit
+disagreeing is a finding; a third tells you which kind. Landing with either existing answer
+suggests one reading is dominant and the other was the outlier. A third distinct answer, or
+a coin-flip between the two, says §2's ordering test does not converge on this case at all.
+**That result is recorded whichever way it falls**, and no run is repeated to get a better
+one.
+
+**Conditions.** Live folder, same as sessions 2 and 3. First message is the request and
+nothing else. No asks afterwards. The visibility question is put at the end, verbatim as in
+session 3, and its answer decides whether the run counts.
+
+---
+
+## Session 4 — the run
+
+*Not yet run.*
+
