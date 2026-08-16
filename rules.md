@@ -195,9 +195,11 @@ deleted.
 **After delivery.** Deliver the diagnosis in full in the chat — never only as a saved
 file. Then save it, unedited, as `transcript.md` in the case folder (revisions:
 `transcript-rev2.md` and onward, §4a) and say where it was saved. Then run
-`python3 _tools/check_diagnosis.py` on the saved file and report the result. A FAIL
-means the output violated this contract — say so plainly; never rewrite a transcript
-to make it pass.
+`python3 _tools/check_diagnosis.py` on the saved file and report the result. It reads
+the case's `evidence-kit.md` alongside the transcript and checks every quoted span
+against it, so the "no quote, no claim" rule in §3 is enforced and not merely asked
+for. A FAIL means the output violated this contract — say so plainly; never rewrite a
+transcript to make it pass.
 
 ## 4a. Revisions
 

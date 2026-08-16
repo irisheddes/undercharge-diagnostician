@@ -89,3 +89,26 @@ section 5.
   Run on the three demo transcripts it passes `demo-case-3` and fails the two older
   runs on exactly the rule that postdates them — the method's improvement, verifiable
   mechanically.
+
+  It also opens the case's `evidence-kit.md` and checks the rule the rest of the
+  contract rests on — `rules.md` §3, **no quote, no claim**: every quoted span in a
+  diagnosis must appear in the evidence. Formatting is flattened first (line wrapping,
+  markdown, quote-mark style, elisions marked with `...`), so a quote that was re-marked
+  or re-wrapped still matches — but wording is not, so **a paraphrase does not match**.
+  A quote directly behind a negation is read as a named absence and exempted; that
+  exemption, and its limit, is written above the code. If no kit sits beside the
+  transcript the check fails rather than skips: a gate that passes when it cannot look
+  is not a gate.
+
+  Until this existed the checker enforced the *shape* of a diagnosis and never opened
+  the evidence, so an invented quote scored a clean pass. It found one real defect on
+  first run against the full case set — a private transcript that rendered the kit's
+  "not evidenced as ever communicated to Gabi" as the direct quote
+  "never communicated to Gabi", turning an absence of evidence into an asserted fact.
+  That first catch is the argument for the check.
+
+- `_tools/fixtures/` — three planted-bad transcripts, each a copy of `demo-case-3`
+  carrying exactly one defect: a fabricated quote, a smuggled prescription, two primary
+  causes. `python3 _tools/check_diagnosis.py --selftest` fails unless **every one of
+  them fails**. A checker that cannot fail is a rubber stamp, and a green run against
+  only good files cannot tell a working gate from a broken one.

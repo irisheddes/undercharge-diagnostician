@@ -11,3 +11,7 @@ cases/*
 !cases/demo-case-3/
 !cases/demo-case-3/**
 .DS_Store
+
+# Python bytecode from running the checker
+__pycache__/
+*.pyc
