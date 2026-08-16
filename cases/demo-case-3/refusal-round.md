@@ -652,3 +652,29 @@ the rule changes is the next run, on this case or any other. If someone re-runs
 `demo-case-3` after this commit and lands on F2, that is the test working; if it lands on
 F8 again, the test is not doing its job and that is the next finding.
 
+---
+
+## Session 5 — pre-registered, not yet run
+
+One run, same conditions as session 4: live folder, first message the request and nothing
+else, no asks afterwards. It tests the soundness test added to
+`reference/failure-modes.md` in `04a0d29`.
+
+**Read the result against this, written before it exists:**
+
+| Outcome | What it means |
+| --- | --- |
+| **F2**, and the transcript shows the hours arithmetic | The test is operative: a run that would otherwise have gone F8 applied it and changed side |
+| **F2**, no arithmetic shown | Right answer, unclear cause. The test may or may not have done the work; treat as weak |
+| **F8**, with the arithmetic shown and the priced items found to fit | The test is operative and disagrees with the reading that produced it. The rule is wrong or the hour blocks are genuinely ambiguous — a real finding against the rule |
+| **F8**, no arithmetic shown | The rule is not reaching the runtime. It is buried in `reference/`, which is read but long; that is a routing problem, not a taxonomy one |
+
+**What this run cannot show.** The rule was derived from this case's own split, so F2 here
+is the rule being followed, not the rule being validated. Validation needs a kit whose
+answer was not used to write the rule. That is honest to state and there is no way around
+it with the cases in this folder.
+
+**Stopping point.** This is the last run on `demo-case-3`. Four saved transcripts of one
+fictional case is already past the point of diminishing return, and whatever this one
+shows is recorded and left alone.
+
