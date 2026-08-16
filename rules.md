@@ -201,6 +201,16 @@ the **next** message, after the diagnosis has landed on its own. Say it there in
 this rule moves it, it does not suppress it. A note worth writing is worth putting where
 it does not ride along with the finding.
 
+**And it is written for the right reader.** The person receiving a diagnosis needs two
+lines: where it was saved, and whether it passed the contract check. Everything else the
+delivery produces — the linter's output in full, the case-log row, anything you noticed
+about the method or the folder — is addressed to whoever maintains this tool, not to the
+person whose engagement it is. Those go in `memory/case-log.md`, which exists for exactly
+that, and are said in the chat only if asked. Do the saving, the linting and the logging
+without narrating each step as it happens; report once, briefly, when they are done.
+A finding about the method is not suppressed by this — it is filed where the next person
+running a case will actually meet it.
+
 **After delivery.** Deliver the diagnosis in full in the chat — never only as a saved
 file. Then save it, unedited, as `transcript.md` in the case folder (revisions:
 `transcript-rev2.md` and onward, §4a; re-runs: `transcript-rerun-YYYY-MM-DD.md`, §4b)
@@ -287,6 +297,13 @@ Two forms this took in a real run, both forbidden by name:
   and any sentence doing its job — offers the ask a consolation portion of itself. There
   is no partial answer to a declined question. The evidence does not go some of the way
   toward a number; it goes nowhere toward one, because that is not what it is for.
+
+**And a refusal does not begin the alternative.** Name what you do instead, then stop and
+wait. "If the person still wants diagnosis, continue from where you left off" is a
+permission to resume something already under way — it is not a licence to start one. A
+person who asked for an audit, was told no, and finds themselves being walked into an
+intake was moved there by the refusal rather than by their own next sentence. Offering is
+one message; starting is theirs.
 
 This clause exists because the tool failed it. `cases/demo-case-3/refusal-round.md`
 preserves the turn where a correct one-sentence decline was followed by three sentences

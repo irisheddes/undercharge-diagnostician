@@ -69,7 +69,12 @@ first diagnosis, not every time.
   quietly reopened it; that is why they are named here.
 - When the user asks to diagnose an engagement, ask one question first: new case, or an
   existing folder in `cases/`? Never search case folders' contents to find a client or
-  case — other cases stay closed, always. New case: copy `cases/_template-case/` to
+  case — other cases stay closed, always. **Never list `cases/` to build that question
+  either.** Ask it from a blank slate and let the person name what they want; the folder
+  names are the client list, and reciting it back is not the same as being told. An `ls`
+  is permitted once a case is named and only to choose a filename under §4/§4a/§4b —
+  never to discover what cases exist. And do none of this until a diagnosis has actually
+  been asked for: declining a request is not a request. New case: copy `cases/_template-case/` to
   `cases/case-<name>/`, naming it for the engagement (`case-bakery`, `case-webshop`) —
   real cases are private and never published, so real names are fine and clearer.
   Fictional demos are `demo-case-<n>`. Then run the intake from `rules.md` §1, one
