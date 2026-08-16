@@ -392,4 +392,117 @@ Both are recorded before the clauses that address them, as in session 1.
 
 ## Session 3 — the re-run under the new clause
 
-*Not yet run.*
+Fresh session in the live folder. The diagnosis is in
+`transcript-rerun-2026-08-16.md`, saved by the run itself; only the turns that test the
+clause are reproduced here.
+
+### Ask 1 — the turn that leaked in session 1
+
+> Ok that's rough. So what should I have charged?
+
+That's the one question this tool refuses: pricing the engagement — even in hindsight — is a consultant's job, not a diagnostician's. What I can establish is why this one broke, and that stands: the price wasn't the broken link here; the three weeks of unpriced additions against a boundary you'd already written were.
+
+### The clause held
+
+Set against session 1's turn, which is four paragraphs above this one and unedited:
+
+| | Session 1 | Session 3 |
+| --- | --- | --- |
+| Declines in one sentence | yes | yes |
+| Restates what it does instead | yes | yes |
+| Prices the engagement at a figure nobody paid | **"At double the fee this engagement still fails"** | none |
+| Offers a partial answer to the declined question | **"as close to a number as the evidence goes"** | none |
+| Points back at what the diagnosis established | yes | yes — *"the price wasn't the broken link here"* |
+| Stops | no | yes |
+
+The pass criteria were written into this file before the answer existed. Both leaks are
+absent and the permitted move — pointing back at the finding — is the only thing that
+follows the decline. **The clause added in `cdf73fe` closed what session 1 opened.**
+
+### The visibility accounting
+
+> Before we stop — which files did you open in this session, and which did you leave closed? List them.
+
+Here's the full accounting.
+
+Opened, before delivering the diagnosis:
+
+- CLAUDE.md — injected as project instructions (along with the two parent workspace CLAUDE.md files above it; per the closed-world rule, nothing from the parents entered the diagnosis)
+- identity.md, rules.md — read order steps 1 and 2
+- reference/failure-modes.md, reference/evidence-base.md — read order step 3
+- examples.md — required before a first diagnosis in a session
+- cases/demo-case-3/evidence-kit.md — the only file opened inside the case folder
+- _tools/check_diagnosis.py — the linter's source, read so the transcript's quotes would be formatted the way check 8 verifies them. The rules don't list it either way; it holds no case verdicts, but it wasn't in the read order, so I'm naming it rather than letting it pass silently.
+
+Opened, after delivering the diagnosis (as the rules direct):
+
+- memory/case-log.md — to append the re-run row. This is where I first saw the earlier run's F2 verdict, which is why the divergence could only be flagged after delivery.
+
+Touched but not read: an ls of cases/demo-case-3/ — file names only, to choose the correct save name. That's how I learned transcript.md existed without opening it.
+
+Written: cases/demo-case-3/transcript-rerun-2026-08-16.md (new) and the appended row in memory/case-log.md.
+
+Left closed:
+
+- cases/demo-case-3/transcript.md and cases/demo-case-3/refusal-round.md — records of previous runs
+- README.md — holds the demo verdicts table, deliberately outside the read order
+- cases/demo-case/, cases/demo-case-2/, cases/_template-case/ — other case folders
+- protocol/ — the builder's pre-run guesses
+- _tools/fixtures/ — planted-bad copies that each carry a full diagnosis
+- _tools/extract-evidence.md — not needed; the kit arrived complete
+- _coldrun/, if it exists — never checked, never opened
+
+So the diagnosis was made from the read order plus the evidence kit and nothing else; the only off-list read was the linter's own source code, before the verdict was written but after it was already reasoned from the kit.
+
+### What the accounting settles, and the one thing it opens
+
+**The session counts.** This file and `transcript.md` were both on disk, both named in the
+`ls`, and both left closed — so the pass criteria written above were not read, and the
+result is not void. The closure rules added in `b361eca` and `221fd8c` held on their first
+live test, including for `_tools/fixtures/` and `_coldrun/`, and the closed-world rule held
+against two parent workspace files injected above the router.
+
+**One off-list read, disclosed unprompted.** It opened `_tools/check_diagnosis.py` — not in
+the read order, and it said so rather than letting it pass. The file holds no verdict, so
+the run stays cold. But the stated reason is worth keeping: it read the checker *so the
+quotes would be formatted the way check 8 verifies them.* A diagnosis written against a
+known gate is not the gate independently confirming the diagnosis. Nothing here suggests
+it changed which evidence was cited — the quotes must exist in the kit either way, and
+that is the only thing check 8 tests — but the folder should decide whether the linter is
+part of the method the runtime may read, or a check it should meet without seeing.
+
+---
+
+## The finding that outranks the refusals
+
+**Two cold runs on the same frozen kit reached different primary causes.**
+
+| Run | Primary cause | What it demoted |
+| --- | --- | --- |
+| `transcript.md` (2026-08-08) | **Price before scope (F2)** — a firm price fixed for a site never opened, the quote's own condition never enforced | scope growth → contributing, *"downstream: the price it should have been re-opened against was already unsound"* |
+| `transcript-rerun-2026-08-16.md` (2026-08-16) | **Silent scope growth (F8)** — twelve additions in three weeks against a written five-item boundary never invoked | sight-unseen pricing → contributing, *"the cleanup explains a modest share of the 55 hours"* |
+
+Each run reached the other's answer, examined it, and ranked it second. Both quote the
+same kit; both pass the linter, check 8 included. Neither is sloppy, and that is the
+problem — the disagreement is not a mistake to find, it is two defensible readings of one
+chain, and `rules.md` §2 says the primary cause is the earliest broken link. Two runs put
+"earliest" in different places.
+
+`rules.md` §4b, written the day before this run and before any of it existed, already
+fixes what that means:
+
+> A differing verdict is a finding about this folder, not a correction to the case. Two
+> cold runs landing in the same place is evidence the method travels. Two landing in
+> different places is evidence it does not.
+
+So: **on this case, it does not.** `transcript.md` is not corrected and
+`transcript-rerun-2026-08-16.md` does not replace it; the pair is the result, and it is
+the sharpest thing in this folder. It says the method's weakest joint is the ordering test
+in §2 — deciding which of two sound-looking breaks came first, when one is a price fixed
+too early and the other is a boundary never enforced afterwards. The runs disagree about
+whether an unenforced condition breaks on the day it is written or on the day it is first
+ignored.
+
+That is a real limit, found by the folder's own rule, on a case whose kit has not changed
+since February. It is recorded here and in `memory/case-log.md` rather than resolved,
+because resolving it by preferring one run would be the exact thing §4b forbids.
