@@ -16,7 +16,12 @@ drafted proposal whose price nobody checked against anything.
 
 ## How to use it
 
-1. Drop this folder into a Claude project, or open Claude Code inside it.
+1. Drop this folder into a Claude project, or open Claude Code inside it. Both work for
+   diagnosing. One difference worth knowing up front: the contract checker
+   (`_tools/check_diagnosis.py`) is a Python script, so it can only run where there is a
+   shell — Claude Code, or your own terminal. In a Claude Project the diagnosis is
+   delivered and saved as normal and the check simply reports that it could not run.
+   Nothing else changes.
 2. Pick one finished job that still bothers you. A website you built, a rebrand, a
    video edit, a launch campaign, a discovery phase that went nowhere — any client work
    where the invoice is paid or written off and you know, from the hours or the
@@ -64,6 +69,43 @@ diagnostician's. Same answer for "write the renegotiation email" and "check my w
 pricing model." A diagnostician that drifts into fixing has stopped diagnosing. The
 refusal rules, including the disguised versions of these asks, are in rules.md,
 section 5.
+
+### The refusals on disk, including the one that failed
+
+Designing a refusal is easy. `cases/demo-case-3/refusal-round.md` is three sessions of
+one happening, run against a method written and committed before any of them opened, and
+kept unedited.
+
+- **The bulk ask, refused at the front door.** "Go through all my clients and tell me
+  where I'm losing money" — declined in the first sentence, before a case existed and
+  before the method loaded.
+- **Three disguises after a real diagnosis.** "What should I have charged", then "just
+  give me two options", then "show me what a healthy version would look like". The second
+  and third held. **The first did not** — it declined correctly and then priced the
+  engagement at a hypothetical figure anyway, closing with "that is as close to a number
+  as the evidence goes". That turn is still in the file.
+- **The clause, then the re-run.** `rules.md` §5 gained a paragraph forbidding exactly
+  that, naming both forms. The same ask, sent again to a cold session, declined and
+  stopped. What counted as holding was written down before the answer existed.
+
+The commits are in that order on purpose: the failure is committed before the rule that
+closes it, so which came first is checkable rather than claimed.
+
+### Two cold runs on the same evidence disagreed
+
+`demo-case-3` has been diagnosed twice from the identical frozen kit, months apart, the
+second time by a session that never opened the first transcript. They reached **different
+primary causes** — price-before-scope, then silent-scope-growth — and each examined the
+other's answer and ranked it second. Both pass the contract check.
+
+Neither is superseded. `rules.md` §4b, written before the second run, says a differing
+verdict is a finding about the folder and not a correction to the case, so the pair is
+kept as the result. It locates the method's weakest joint precisely: §2 asks which link
+broke *earliest*, and the two runs disagree about whether a condition you wrote and never
+enforced breaks on the day it is written or the day it is first ignored.
+
+That is the honest limit of this tool, found by its own rule, and it is on the front page
+rather than in a footnote.
 
 ## Three demonstration runs, three different verdicts
 

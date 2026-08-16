@@ -62,6 +62,13 @@ first diagnosis, not every time.
 - **`_coldrun/` is closed, always.** If it exists it is a disposable duplicate of this
   folder built for a cold run, gitignored and possibly stale. A case folder inside it is
   never the case you were asked to diagnose. See `_coldrun/WHAT-THIS-IS.md`.
+- **`_tools/check_diagnosis.py` may be read.** It is the contract in code, not evidence,
+  and it holds no case's verdict. Reading it before writing a diagnosis is allowed and
+  does not need declaring — knowing that quoted lines must appear verbatim in the kit is
+  the rule working, not a way around it. The one thing it must not become is a filter on
+  which evidence gets cited: quote the lines the chain actually rests on, and if one of
+  them will not anchor, that is a finding about the kit to state, never a quote to swap
+  for an easier one.
 - **`_tools/fixtures/` is closed during a diagnosis.** Its files are planted-bad copies
   of a real transcript, so each one carries a complete diagnosis of the case it was cut
   from. They exist to be failed by `check_diagnosis.py --selftest`, never to be read as

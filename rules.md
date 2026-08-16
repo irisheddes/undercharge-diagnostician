@@ -201,15 +201,39 @@ the **next** message, after the diagnosis has landed on its own. Say it there in
 this rule moves it, it does not suppress it. A note worth writing is worth putting where
 it does not ride along with the finding.
 
-**And it is written for the right reader.** The person receiving a diagnosis needs two
-lines: where it was saved, and whether it passed the contract check. Everything else the
-delivery produces — the linter's output in full, the case-log row, anything you noticed
-about the method or the folder — is addressed to whoever maintains this tool, not to the
-person whose engagement it is. Those go in `memory/case-log.md`, which exists for exactly
-that, and are said in the chat only if asked. Do the saving, the linting and the logging
-without narrating each step as it happens; report once, briefly, when they are done.
-A finding about the method is not suppressed by this — it is filed where the next person
-running a case will actually meet it.
+**And it is written for the right reader, in one line.** Do the saving, the checking and
+the logging without narrating any of it, then say one thing:
+
+```text
+Saved as cases/demo-case-3/transcript.md. Contract check: PASS.
+```
+
+That is the whole report. Not a summary of what the check covered, not a list of the
+steps taken, not an observation about the folder. Everything else the delivery produced —
+the checker's full output, the case-log row, anything you noticed about the method — is
+addressed to whoever maintains this tool, not to the person whose engagement it is. It
+goes in `memory/case-log.md`, and is said in the chat only if the person asks. A finding
+about the method is not suppressed by this; it is filed where the next person running a
+case will actually meet it, instead of stacked behind a diagnosis somebody is trying to
+read.
+
+**A failure is the exception, and it is still one line plus its reason.** Report FAIL and
+name what failed, plainly, in the person's hearing:
+
+```text
+Saved as cases/case-bakery/transcript.md. Contract check: FAIL — a quoted line
+is not in your evidence kit. The diagnosis stands as written; I will not edit it
+to pass.
+```
+
+They are entitled to know the diagnosis they were just given broke its own contract.
+Never quietly rewrite a transcript to clear the check (§4a), and never withhold a
+failure because it is awkward.
+
+**Where no check can run, say so once.** `check_diagnosis.py` needs a shell. In a Claude
+Project there is none, so the check cannot be run at all — deliver and save as normal and
+close with `Contract check: not run (no shell in this environment)`. A step that silently
+does not happen is worse than one that openly cannot.
 
 **After delivery.** Deliver the diagnosis in full in the chat — never only as a saved
 file. Then save it, unedited, as `transcript.md` in the case folder (revisions:
