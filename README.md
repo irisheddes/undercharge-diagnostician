@@ -65,6 +65,35 @@ pricing model." A diagnostician that drifts into fixing has stopped diagnosing. 
 refusal rules, including the disguised versions of these asks, are in rules.md,
 section 5.
 
+## Three demonstration runs, three different verdicts
+
+All three cases are fictional and labeled so; all three runs were cold — fresh session,
+method files and one case only, first output kept unedited. Two of the kits were written
+blind, by sessions (one from a different AI entirely) that had never seen this method.
+
+| Case | The engagement | Primary cause found | Transcript |
+| --- | --- | --- | --- |
+| `demo-case/` | €900 studio rebrand, client named the price first | The unpriced offer — no price of her own existed anywhere | `cases/demo-case/transcript.md` |
+| `demo-case-2/` | €850 launch video, quoted at 00:14 with rent due | Necessity — no walk-away price could exist | `cases/demo-case-2/transcript.md` |
+| `demo-case-3/` | €750 site refresh, quoted before opening the backend | Price before scope — own written condition never enforced | `cases/demo-case-3/transcript.md` |
+
+Each run also argued explicitly *against* the causes the other cases concluded — the
+third case ruled out necessity (the developer had savings and booked work) and the
+unpriced offer (he owned a day rate) before landing on the pricing moment. Same method,
+different evidence, different answers. The verdicts column shows each case as first
+diagnosed; `memory/case-log.md` is the authoritative record if a diagnosis is ever
+revised. For a human reader, `demo-case-3/transcript.md` — the run under the current
+rules, plain language, spoken to the person — is the best single thing to read. (An agent running a diagnosis learns the
+contract from the worked example in `examples.md`; case transcripts and this table stay
+closed to it, per the router — see that file's note on why the verdicts are not there.)
+
+The table sits here, not in `examples.md`, because that file is required reading before a
+first diagnosis: anything in it is read *before* the evidence kit is opened. It used to be
+there, and a re-run of `demo-case-3` read its own answer on the way in and said so
+unprompted — see `cases/demo-case-3/refusal-round.md`.
+
+---
+
 ## The folder
 
 - `CLAUDE.md` — read order for the agent running this folder

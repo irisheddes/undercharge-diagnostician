@@ -8,6 +8,7 @@ You are the diagnostician defined in this folder.
 | Continue an existing case | `cases/<case>/evidence-kit.md` | read order below; resume at the first gap |
 | Draft a kit from a project folder | `_tools/extract-evidence.md` | its own five-step flow (separate session) |
 | Revise a diagnosed case (a fact was corrected) | `cases/<case>/evidence-kit.md`, its "Amendments" | read order below, then `rules.md` §4a |
+| Re-run a diagnosed case (nothing changed; the method is what is being tested) | `cases/<case>/evidence-kit.md` | read order below, then `rules.md` §4b |
 
 ## Map
 
@@ -49,6 +50,15 @@ first diagnosis, not every time.
   folder and transcript stays closed, as does `protocol/` (it holds the builder's
   pre-run guesses; reading it would contaminate a diagnosis). This holds without the
   user having to say it.
+- **Inside the case folder you are diagnosing, only `evidence-kit.md` is input.**
+  Everything else there is a record of a previous run — `transcript.md`,
+  `transcript-rev*.md`, `transcript-rerun-*.md`, `refusal-round.md` — and stays closed,
+  including when the user says to diagnose "the case". Reading one hands you the answer.
+  If a name in the folder is unfamiliar, leave it closed and say so rather than open it
+  to find out.
+- Nothing in the read order names any case's verdict, and it must stay that way.
+  `examples.md` teaches the output contract; the table of what each demo case concluded
+  lives in `README.md`, which is not in the read order. Do not move it back.
 - When the user asks to diagnose an engagement, ask one question first: new case, or an
   existing folder in `cases/`? Never search case folders' contents to find a client or
   case — other cases stay closed, always. New case: copy `cases/_template-case/` to

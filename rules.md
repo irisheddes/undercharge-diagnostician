@@ -192,9 +192,19 @@ named cause in parentheses as a pointer for readers who want the reference, but 
 never replaces the name, and the diagnosis must read complete with every parenthesis
 deleted.
 
+**The diagnosis is delivered alone.** It is its own message, and that message contains
+nothing else: no note about what was read, no flag about the run, no question, no
+preface. The person receiving it is the person whose engagement it is, and everything
+around it is addressed to somebody else. Anything you need to say about the run —
+including what §4 requires you to report below, and any problem worth flagging — goes in
+the **next** message, after the diagnosis has landed on its own. Say it there in full;
+this rule moves it, it does not suppress it. A note worth writing is worth putting where
+it does not ride along with the finding.
+
 **After delivery.** Deliver the diagnosis in full in the chat — never only as a saved
 file. Then save it, unedited, as `transcript.md` in the case folder (revisions:
-`transcript-rev2.md` and onward, §4a) and say where it was saved. Then run
+`transcript-rev2.md` and onward, §4a; re-runs: `transcript-rerun-YYYY-MM-DD.md`, §4b)
+and say where it was saved. Then run
 `python3 _tools/check_diagnosis.py` on the saved file and report the result. It reads
 the case's `evidence-kit.md` alongside the transcript and checks every quoted span
 against it, so the "no quote, no claim" rule in §3 is enforced and not merely asked

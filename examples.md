@@ -13,27 +13,20 @@ names. After running the tool, the rules gained a plain language rule — causes
 in words a stranger understands, codes demoted to optional pointers. Old transcripts
 stay as they were run; the commits date the change.
 
-## Three demonstration runs, three different verdicts
+## Why the verdicts are not listed here
 
-All three cases are fictional and labeled so; all three runs were cold — fresh session,
-method files and one case only, first output kept unedited. Two of the kits were written
-blind, by sessions (one from a different AI entirely) that had never seen this method.
+This file is required reading before a first diagnosis, so anything in it is something
+every diagnosing agent sees **before** it opens an evidence kit. It therefore names no
+case's verdict.
 
-| Case | The engagement | Primary cause found | Transcript |
-| --- | --- | --- | --- |
-| `demo-case/` | €900 studio rebrand, client named the price first | The unpriced offer — no price of her own existed anywhere | `cases/demo-case/transcript.md` |
-| `demo-case-2/` | €850 launch video, quoted at 00:14 with rent due | Necessity — no walk-away price could exist | `cases/demo-case-2/transcript.md` |
-| `demo-case-3/` | €750 site refresh, quoted before opening the backend | Price before scope — own written condition never enforced | `cases/demo-case-3/transcript.md` |
+The three demonstration runs, what each one concluded, and how they differ are in
+`README.md`, "Three demonstration runs, three different verdicts" — human-facing, and
+deliberately outside the router's read order.
 
-Each run also argued explicitly *against* the causes the other cases concluded — the
-third case ruled out necessity (the developer had savings and booked work) and the
-unpriced offer (he owned a day rate) before landing on the pricing moment. Same method,
-different evidence, different answers. The verdicts column shows each case as first
-diagnosed; `memory/case-log.md` is the authoritative record if a diagnosis is ever
-revised. For a human reader, `demo-case-3/transcript.md` — the run under the current
-rules, plain language, spoken to the person — is the best single thing to read. (An
-agent running a diagnosis learns the contract from the worked example below; case
-transcripts stay closed to it, per the router.)
+That table used to live here. A re-run of `demo-case-3` read its own answer on the way
+in and said so unprompted; the exchange is in `cases/demo-case-3/refusal-round.md`. A
+file that teaches the output contract and a file that catalogues results are two jobs,
+and only the first one belongs in front of a diagnosis.
 
 ---
 
