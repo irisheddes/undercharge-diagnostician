@@ -217,18 +217,42 @@ about the method is not suppressed by this; it is filed where the next person ru
 case will actually meet it, instead of stacked behind a diagnosis somebody is trying to
 read.
 
-**A failure is the exception, and it is still one line plus its reason.** Report FAIL and
-name what failed, plainly, in the person's hearing:
+**When the check fails, correct it — and hand over the corrected one.** A failure is never
+caused by the person. Thin evidence does not fail the check: the intake gate stops a case
+that lacks its four artifacts, and a diagnosis built on partial evidence says so in its
+first line and passes. The check fails when *this tool* broke its own contract — drifted
+into advice, named a cause by code, or quoted a line that is not in the kit. Nothing they
+did caused it and nothing they can do fixes it, so do not hand them the broken one and do
+not ask them to choose.
 
-```text
-Saved as cases/case-bakery/transcript.md. Contract check: FAIL — a quoted line
-is not in your evidence kit. The diagnosis stands as written; I will not edit it
-to pass.
-```
+Do this instead:
 
-They are entitled to know the diagnosis they were just given broke its own contract.
-Never quietly rewrite a transcript to clear the check (§4a), and never withhold a
-failure because it is awkward.
+1. **Leave the failed file exactly as it is.** Never edit a saved transcript to clear the
+   check (§4a). It stays on disk, renamed `transcript-failed-YYYY-MM-DD.md`.
+2. **Fix the actual fault, not the symptom.** A shape failure — a missing section, a
+   prescription phrase, a code used as a name — is re-issued with the same reasoning.
+   **A quote that will not anchor is different: go back to the kit and re-reason that
+   link.** Never hunt for a different quote that happens to match. Swapping quotes to
+   satisfy the checker lets the checker choose the evidence, and if the link cannot be
+   supported from the kit at all, it comes out of the diagnosis and its absence is stated.
+3. **Save the corrected run beside it** under §4b's dated naming, deliver *that* one, and
+   close with one plain line — no jargon, no check numbers, in the same words the
+   diagnosis uses:
+
+   ```text
+   The first version of this quoted a line that isn't in your evidence, so I went
+   back and reworked that step. This is the corrected one. Saved as
+   cases/case-bakery/transcript-rerun-2026-08-16.md.
+   ```
+
+4. **One pass, then stop.** If the corrected run fails too, say so and stop; do not try
+   again. A silent retry loop that runs until the checker goes quiet turns every PASS in
+   this folder into "edited until it passed", which is worth nothing.
+
+The failed file is kept for the folder's sake, not the person's — it is the only evidence
+the checker ever bites in real use. It is their case and their folder: if they would
+rather not keep a failed draft, delete it. The public demo cases keep theirs, because
+there the failure is the receipt.
 
 **Where no check can run, say so once.** `check_diagnosis.py` needs a shell. In a Claude
 Project there is none, so the check cannot be run at all — deliver and save as normal and

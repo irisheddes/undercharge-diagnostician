@@ -49,6 +49,13 @@ drafted proposal whose price nobody checked against anything.
    the reasoning with quotes from your own evidence, the contributing factors ranked
    underneath it, and a plain statement of what your evidence cannot show. Then it
    stops.
+4. **A check runs on what it just wrote** — every quote has to appear in the evidence you
+   gave it, and no advice is allowed to creep in. If that check fails it is the tool's
+   fault, never yours: thin evidence is handled openly inside the diagnosis, not by the
+   checker. You are not shown a broken diagnosis and not asked to fix anything. It
+   reworks the step that failed, hands you the corrected one, and says in a line what
+   happened. It gets one attempt at that, not an invisible loop until the check goes
+   quiet.
 
 ## If the diagnosis rests on a wrong fact
 
