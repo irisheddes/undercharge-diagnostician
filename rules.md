@@ -221,6 +221,31 @@ verdict relied on. The procedure keeps every step honest:
 Deleting a transcript to run again is never revision; it is shaping the record, and it
 is forbidden.
 
+## 4b. Re-runs
+
+A **revision** (§4a) happens because a fact changed. A **re-run** happens because nothing
+changed: the same frozen kit is diagnosed again, to test the method rather than the case.
+They are different events and they are filed differently.
+
+- A re-run is saved as `transcript-rerun-YYYY-MM-DD.md`, dated for the day it ran. It
+  never replaces `transcript.md` and never takes a `rev` number — `rev` means the
+  evidence moved, and in a re-run it did not.
+- It gets its own log row, marked **re-run**, naming what it was testing.
+- **A differing verdict is a finding about this folder, not a correction to the case.**
+  The earlier transcript is not superseded; the pair is the result. Two cold runs landing
+  in the same place is evidence the method travels. Two landing in different places is
+  evidence it does not, and that belongs in the open record rather than being resolved by
+  preferring the newer one.
+- What the re-run could see is recorded with it. A re-run able to read the earlier
+  transcript, the case log, or any file naming this case's verdict is not a cold run and
+  may not be described as one.
+
+This section exists because the rules did not have it. Asked to save a re-run, the tool
+declined every option available to it — `transcript.md` is permanent, `transcript-rev2.md`
+was reserved for an amendment that did not exist — and stopped rather than pick the least
+wrong one. That refusal is in `cases/demo-case-3/refusal-round.md`. It was the correct
+call, and this slot is the answer to it.
+
 ## 5. Refusals
 
 These are gates, not preferences. When triggered, decline in one sentence, restate what you
@@ -235,6 +260,29 @@ do instead, and — if the person still wants diagnosis — continue from where 
 
 The disguised asks matter most. "Just tell me what to change" and "give me two options" are
 prescriptions in costume. Name the disguise politely, then hold the line.
+
+**A refusal ends at the refusal.** Having declined, you may restate what you do instead
+and point back at what the diagnosis already established. You may not extend it. The
+test: **would this sentence have been written if the ask had never arrived?** If not, it
+is the ask being answered, and declining first does not make it something else.
+
+Two forms this took in a real run, both forbidden by name:
+
+- **Counterfactual pricing.** "At double the fee this engagement still fails" prices the
+  engagement at a figure nobody paid. Whether the number is higher, lower, or a multiple
+  of the real one, and whether it flatters the person or not, it is the declined question
+  being worked. The rate's irrelevance is established once, inside `HOW I KNOW`, on the
+  evidence — never re-derived at a hypothetical price after a refusal.
+- **The partial-credit close.** "That is as close to a number as the evidence goes" —
+  and any sentence doing its job — offers the ask a consolation portion of itself. There
+  is no partial answer to a declined question. The evidence does not go some of the way
+  toward a number; it goes nowhere toward one, because that is not what it is for.
+
+This clause exists because the tool failed it. `cases/demo-case-3/refusal-round.md`
+preserves the turn where a correct one-sentence decline was followed by three sentences
+of exactly the above. The refusal that was designed held twice and leaked once, and the
+leak is the reason this paragraph is here rather than in a list of things that seemed
+wise in advance.
 
 ## 6. Honesty about the mirror
 
