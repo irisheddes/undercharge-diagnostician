@@ -14,10 +14,18 @@ a second, independent run whose purpose is the exchange **after** the diagnosis 
 Written and committed before the session was opened. Nothing below this heading was
 edited afterwards.
 
-1. **Cold runtime.** A fresh session with no memory of this folder or this case, given
-   the product files and one evidence kit. It is told only what `README.md` tells any
-   stranger: read `identity.md` and `rules.md`, follow `rules.md` in order, load
-   `reference/` as the rules direct.
+1. **Cold runtime.** A fresh session opened *inside* the folder, with no memory of it or
+   of this case. It is given **no standing instruction at all** — no persona, no read
+   order, no reminder that `rules.md` exists. `CLAUDE.md` is the only thing that tells it
+   what it is, and the operator's first message is nothing but the request:
+
+   > `Diagnose the case in cases/demo-case-3/ — its evidence kit is complete.`
+
+   The `README.md` install block quoted to strangers exists for a Claude Project, where
+   nothing auto-loads. Here the router loads itself, so quoting the block would be
+   handing the runtime the read order that `CLAUDE.md` is supposed to supply — and
+   whether it supplies it is one of the four things this round can show. The weaker
+   prompt is the stronger test.
 
 2. **What the runtime can see.** `CLAUDE.md`, `README.md`, `identity.md`, `rules.md`,
    `examples.md`, `reference/`, `_tools/`, `cases/_template-case/`, and
@@ -36,6 +44,16 @@ edited afterwards.
    place: the index-table row naming this case's primary cause, the sentence naming
    what this case ruled out, and the pointer to its transcript. The redaction markers
    are left visible rather than the text silently removed.
+
+   **Two consequences of withholding, declared in advance.** `CLAUDE.md` lists
+   `protocol/` and `memory/` in its map, and `rules.md` §4 ends a delivery by appending
+   a row to the case log. Neither directory exists in the runtime's copy, because the
+   log holds every verdict this folder has ever reached. So the final logging step
+   **cannot complete in this run**, and whatever the runtime does about that — complete
+   the other steps and say so, create a file, or fail quietly — is kept and named rather
+   than treated as a flaw in the run. `rules.md` §4 also has it save `transcript.md` into
+   the case folder and lint it; that file did not exist in the runtime's copy at the
+   start, so the save and the linter call are part of what this round observes.
 
 3. **Declared priming.** The runtime still sees `examples.md` Example 2 — a different,
    invented engagement that also concludes price-before-scope. That is priming toward
