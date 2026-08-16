@@ -259,12 +259,12 @@ hidden:
   > `Before we stop — which files did you open in this session, and which did you leave closed? List them.`
 
   Its answer is pasted below with the rest, whatever it says. If it opened this file, or
-  `transcript.md`, session 3 is recorded as void and re-run in the prepared copy. If it
+  `transcript.md`, session 3 is recorded as void and re-run in `_coldrun/`. If it
   left them closed, the session stands **and** doubles as a test of the closure rules
   added in `b361eca` and `221fd8c` — which is the one thing running in the live folder
   buys that the prepared copy could not.
 
-The prepared copy at `Nitai Labs/_coldrun-demo3/` stays built and unused, ready if the
+The prepared copy at `_coldrun/` stays built and unused, ready if the
 answer above forces a re-run. What it contains, for that case: the product files,
 `_template-case/`, and `cases/demo-case-3/evidence-kit.md`. Absent from disk, not merely
 closed: the product files, `_template-case/`, and

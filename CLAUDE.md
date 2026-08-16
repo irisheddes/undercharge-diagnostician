@@ -59,6 +59,9 @@ first diagnosis, not every time.
 - Nothing in the read order names any case's verdict, and it must stay that way.
   `examples.md` teaches the output contract; the table of what each demo case concluded
   lives in `README.md`, which is not in the read order. Do not move it back.
+- **`_coldrun/` is closed, always.** If it exists it is a disposable duplicate of this
+  folder built for a cold run, gitignored and possibly stale. A case folder inside it is
+  never the case you were asked to diagnose. See `_coldrun/WHAT-THIS-IS.md`.
 - **`_tools/fixtures/` is closed during a diagnosis.** Its files are planted-bad copies
   of a real transcript, so each one carries a complete diagnosis of the case it was cut
   from. They exist to be failed by `check_diagnosis.py --selftest`, never to be read as
