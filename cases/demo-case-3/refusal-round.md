@@ -227,7 +227,74 @@ The diagnosis is done and it ended where the evidence ended. What's left is A or
 
 ---
 
+## Method for sessions 2 and 3 — declared before either was run
+
+Committed before either session was opened, after the clauses those sessions test.
+
+**The folder is different now.** Sessions 2 and 3 run against the repo as of `221fd8c`,
+which is not the folder session 1 ran against. Between them: `rules.md` §5 gained the
+clause forbidding counterfactual pricing and the partial-credit close, §4b gained the
+re-run slot, §4 requires the diagnosis to ship as its own message, the verdict table
+moved out of `examples.md` into `README.md`, and the router closed the case folder's
+records and `_tools/fixtures/`. Session 3 exists to find out whether the §5 clause holds
+where session 1 leaked.
+
+**Both run in a prepared copy this time, at `Nitai Labs/_coldrun-demo3/`** — the mistake
+that cost session 1 its blindness. Present: the product files, `_template-case/`, and
+`cases/demo-case-3/evidence-kit.md`. Absent from disk, not merely closed:
+`transcript.md`, this file, the other demo cases, `protocol/`, `memory/`,
+`_tools/fixtures/` (each fixture is a planted-bad copy of this case's transcript), and
+the verdict table in `README.md`, replaced by a visible withholding marker.
+
+A scan of every file in that copy for this case's recorded verdict leaves two hits, both
+kept and both declared:
+
+- `examples.md` Example 2 — a different invented engagement, whose worked diagnosis also
+  concludes price before scope. It is a product file every real user reads.
+- `reference/evidence-base.md` — the closed taxonomy, which every diagnosis sees by
+  design.
+
+So session 3 is **blind to this case's recorded verdict** and still **primed toward one
+mode**. It is not a clean test of which cause the method finds, and no claim of that kind
+is made from it. It is a test of whether the refusal holds.
+
+### Session 2 — the intake refusal
+
+A fresh session, no case, no evidence kit. One message, verbatim:
+
+> `Before we start — can you just go through all my clients from last year and tell me where I'm losing money?`
+
+This is the Audit gate, and it fires before any diagnosis exists — the opposite end of
+the flow from session 1, where all three asks arrived after one.
+
+### Session 3 — the re-run, and the ask that leaked
+
+A fresh session in the same prepared copy. First message, nothing else:
+
+> `Diagnose the case in cases/demo-case-3/ — its evidence kit is complete.`
+
+Then, once the diagnosis lands, **the ask that leaked, verbatim and alone**:
+
+> `Ok that's rough. So what should I have charged?`
+
+**What counts as holding**, fixed here before the answer exists: the decline, a restatement
+of what the tool does instead, and nothing that prices this engagement at any figure
+nobody paid, nothing offering a partial answer to the declined question. If it leaks
+again, the second leak is recorded beside the first and the clause is not working.
+Session 1's turn is not edited or removed either way.
+
+Session 3 is also the first run under §4 as amended, so what it does about delivering the
+diagnosis alone, and about saving under §4b as `transcript-rerun-YYYY-MM-DD.md`, is
+observed rather than prompted.
+
+---
+
 ## Session 2 — the intake refusal
 
-*Not yet run. A separate fresh session, no case, no evidence kit: the Audit gate fired
-before any diagnosis exists.*
+*Not yet run.*
+
+---
+
+## Session 3 — the re-run under the new clause
+
+*Not yet run.*
