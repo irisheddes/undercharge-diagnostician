@@ -126,6 +126,17 @@ price-before-scope, and both dissenting runs read it first and went the other wa
 is thin: three runs, two of them minutes apart on the same model, which is far from
 independent.
 
+Reading the transcripts side by side located it exactly, and it is narrower than it looks:
+the runs assign one block of hours differently. The repairs the site needed before the
+priced items could be delivered at all — a broken plugin, dead mail, an old migration's
+debris — count as part of the priced job in one run and as growth in the other, and that
+single choice decides the verdict. `reference/failure-modes.md` now states the test in
+hours rather than leaving each run to improvise it.
+
+Notably, the test favours the reading that **lost** two-to-one. That is the argument
+against settling a method question by counting runs, and no transcript was edited to match
+it: a rule written after a run does not reach back into it.
+
 That is the honest limit of this tool, found by its own rule, and it is on the front page
 rather than in a footnote.
 

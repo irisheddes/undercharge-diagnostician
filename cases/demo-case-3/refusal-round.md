@@ -612,3 +612,43 @@ By the standard fixed before session 3, the run counts: the pass criteria in thi
 were not read. The `_tools/check_diagnosis.py` read is now explicitly permitted
 (`CLAUDE.md`) and needs no declaration, and it declared it anyway.
 
+---
+
+## What the divergence turned out to be
+
+The three saved runs split F2 / F8 / F8, and the session-1 run recorded above — not saved,
+and contaminated, so it counts for nothing — also said F2. Reading the transcripts side by
+side, the disagreement is not about method or philosophy. **It is one block of hours.**
+
+| | What the run counts as "the job that was priced" | Verdict |
+| --- | --- | --- |
+| `transcript.md` | the five listed items **plus** the plugin conflict, the abandoned slider, mixed content, dead mail, eleven plugin updates — *"roughly 21 hours before a single call, message or test is counted"* | price never sound → **F2** |
+| `transcript-rerun-2026-08-16-2.md` | setup and original page work only — *"only about 16 map to the items the €750 covered"*, so *"the quote ran modestly low at worst"* | price sound → **F8** |
+
+Everything else in the two runs agrees. They quote the same messages, walk the same chain,
+and rule out necessity and the missing anchor identically. The entire divergence is whether
+the remedial work — the repairs the site needed before the priced items could be delivered
+at all — belongs to the priced job or to the growth.
+
+**The taxonomy already answered this and never said so.** F8 opens *"the price was sound
+when set"*; F11 distinguishes itself from F8 by *"in F8 the client grows the work"*. Nobody
+asked for the plugin repair and the freelancer did not choose it — so it is neither. F2's
+signature covers it exactly: *whatever was discovered afterward was, by construction,
+free.* The remedial hours belong to the priced job, and the priced job overran its price
+before Clara asked for anything.
+
+`reference/failure-modes.md` now states the test in hours, under F8, with a pointer from
+F2. Runs were improvising it silently and landing on different sides.
+
+**Two consequences, taken rather than tidied.**
+
+The rule favours the **minority** verdict. Two of three saved runs said F8; the test says
+F2. That is the argument against settling a method question by counting runs, and it is
+why §4b keeps the set instead of the winner.
+
+And no transcript is touched. All three stay exactly as they ran — §4a and §4b forbid
+editing a saved record, and a rule written after a run does not reach back into it. What
+the rule changes is the next run, on this case or any other. If someone re-runs
+`demo-case-3` after this commit and lands on F2, that is the test working; if it lands on
+F8 again, the test is not doing its job and that is the next finding.
+

@@ -47,6 +47,8 @@ The number was agreed before either party could list what the work contained. Wh
 discovered afterward was, by construction, free. **Chain position: scope at pricing time.**
 *Evidence signature:* the pricing message predates any written scope; delivered-scope list
 is several times longer than anything discussed at pricing time.
+**Ranking against F8:** apply the soundness test written under F8 before choosing between
+them. Remedial work required to deliver the priced items counts here, not as growth.
 
 ### F3 — Free discovery
 
@@ -121,6 +123,28 @@ existed — each addition was absorbed because renegotiating felt harder than wo
 **Chain position: scope shifts.**
 *Evidence signature:* delivered-scope list materially exceeds priced scope; the scope-shift
 record shows requests acknowledged but never re-priced.
+
+**Ranking against F2 — the soundness test.** Both fit almost every engagement that grew,
+because an underpriced job that also grew shows both signatures. F8's first clause is the
+discriminator and it is a question about arithmetic, not judgment:
+
+> **Deliver only the priced items, on the artifact as it actually was. Does the price
+> still hold?**
+
+Count *every* hour that delivering those items required, including remedial work nobody
+requested and nobody could see at pricing time — a broken plugin, a dead mail path, an
+old migration's debris. That work is not growth: the client did not ask for it (which is
+F8) and the freelancer did not choose it (which is F11). It is what was already there, and
+F2's signature names it — *whatever was discovered afterward was, by construction, free.*
+
+- **The priced items alone overrun the price → F2.** The price was never sound, so the
+  break is at the pricing moment however much the work later grew. Growth is contributing.
+- **The priced items fit the price → F8.** The price was sound and only the additions sank
+  it. The sight-unseen pricing, if any, is contributing.
+
+Ask it in hours before ranking either. Two cold runs of this folder split on exactly this
+arithmetic and neither stated the test it was applying — see
+`cases/demo-case-3/refusal-round.md`.
 
 ### F11 — Gold-plating
 
