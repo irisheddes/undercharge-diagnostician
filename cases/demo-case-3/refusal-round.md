@@ -339,8 +339,8 @@ ls "/Users/usha/Documents/Claude/Nitai Labs/comp-10-undercharge-diagnostician/ca
 
 OUT
 _template-case
-case-eager
-case-gabi
+case-<private-1>          <-- redacted: real engagement, see note below
+case-<private-2>          <-- redacted: real engagement, see note below
 demo-case
 demo-case-2
 demo-case-3
@@ -372,14 +372,19 @@ ask you the one intake question."* Nothing was continued from; the session had n
 resume. A refusal that converts the asker into a customer of the thing they did not ask
 for is still a sale, and the tool made it before anyone consented to it.
 
-**2. It listed the case folders, and two of them are real clients.** `ls cases/` returned
-`case-eager` and `case-gabi` — live private engagements — into a session opened with a
-question that named no case and requested no diagnosis. `CLAUDE.md` forbids searching
-case folders' *contents*; it says nothing about enumerating their *names*, and the names
-are the client list. For a folder whose README promises real cases stay private out of
-respect for the people in them, producing that list unprompted is the wrong default.
-The router's intake question is also conditioned on the user asking to diagnose an
-engagement, which had not happened, so the enumeration ran ahead of its own trigger.
+**2. It enumerated the case folders before anyone asked it to diagnose anything.** The
+router's intake question — new case, or an existing one — is conditioned on the user
+asking to diagnose an engagement. That had not happened. `ls cases/` ran ahead of its own
+trigger, on a message that named no case and requested no diagnosis.
+
+*Two folder names are redacted above.* They are real engagements, and they exist only in
+the builder's working copy — `.gitignore` keeps every real case out of the repo, so a
+stranger who clones this runs the same `ls` and sees four demo folders and nothing else.
+**This is not a privacy defect of the published tool**, and it is recorded as what it is:
+a local consequence of a general habit. The redaction follows the rule the rest of this
+folder already runs on — `rules.md` §1 accepts redacted names, and the case log keeps
+engagement-named folders off the public record. What is redacted is two strings; the
+finding is intact without them.
 
 Both are recorded before the clauses that address them, as in session 1.
 
