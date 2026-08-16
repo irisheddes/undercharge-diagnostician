@@ -55,7 +55,8 @@ drafted proposal whose price nobody checked against anything.
    checker. You are not shown a broken diagnosis and not asked to fix anything. It
    reworks the step that failed, hands you the corrected one, and says in a line what
    happened. It gets one attempt at that, not an invisible loop until the check goes
-   quiet.
+   quiet. The check runs before anything is filed, so a failed draft never reaches your
+   case folder — that folder holds your evidence and your diagnosis, and nothing else.
 
 ## If the diagnosis rests on a wrong fact
 

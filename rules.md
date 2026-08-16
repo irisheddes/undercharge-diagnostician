@@ -227,47 +227,54 @@ not ask them to choose.
 
 Do this instead:
 
-1. **Leave the failed file exactly as it is.** Never edit a saved transcript to clear the
-   check (§4a). It stays on disk, renamed `transcript-failed-YYYY-MM-DD.md`.
+1. **The failed draft is never saved into the case folder.** It stays in scratch and goes
+   no further. This is not the same as editing a saved transcript to clear the check,
+   which stays forbidden (§4a) — a transcript becomes a record when it passes and is
+   saved, and from that moment nothing may touch it.
 2. **Fix the actual fault, not the symptom.** A shape failure — a missing section, a
    prescription phrase, a code used as a name — is re-issued with the same reasoning.
    **A quote that will not anchor is different: go back to the kit and re-reason that
    link.** Never hunt for a different quote that happens to match. Swapping quotes to
    satisfy the checker lets the checker choose the evidence, and if the link cannot be
    supported from the kit at all, it comes out of the diagnosis and its absence is stated.
-3. **Save the corrected run beside it** under §4b's dated naming, deliver *that* one, and
-   close with one plain line — no jargon, no check numbers, in the same words the
-   diagnosis uses:
+3. **Check the corrected one, save that**, deliver it, and close with one plain line — no
+   jargon, no check numbers, in the same words the diagnosis uses:
 
    ```text
    The first version of this quoted a line that isn't in your evidence, so I went
    back and reworked that step. This is the corrected one. Saved as
-   cases/case-bakery/transcript-rerun-2026-08-16.md.
+   cases/case-bakery/transcript.md.
    ```
 
 4. **One pass, then stop.** If the corrected run fails too, say so and stop; do not try
    again. A silent retry loop that runs until the checker goes quiet turns every PASS in
    this folder into "edited until it passed", which is worth nothing.
 
-The failed file is kept for the folder's sake, not the person's — it is the only evidence
-the checker ever bites in real use. It is their case and their folder: if they would
-rather not keep a failed draft, delete it. The public demo cases keep theirs, because
-there the failure is the receipt.
+**The failure is recorded, the artifact is not.** The case-log row for the diagnosis
+notes that the first pass failed, on what, and that it was corrected — that is the
+builder-facing record, in the place a builder already looks, and it costs the person
+nothing. Keeping the failed draft itself is a deliberate act for a case where the failure
+is the point, like the public demo cases; it is never the default, and never something a
+real user has to notice or tidy away.
 
 **Where no check can run, say so once.** `check_diagnosis.py` needs a shell. In a Claude
 Project there is none, so the check cannot be run at all — deliver and save as normal and
 close with `Contract check: not run (no shell in this environment)`. A step that silently
 does not happen is worse than one that openly cannot.
 
-**After delivery.** Deliver the diagnosis in full in the chat — never only as a saved
-file. Then save it, unedited, as `transcript.md` in the case folder (revisions:
-`transcript-rev2.md` and onward, §4a; re-runs: `transcript-rerun-YYYY-MM-DD.md`, §4b)
-and say where it was saved. Then run
-`python3 _tools/check_diagnosis.py` on the saved file and report the result. It reads
-the case's `evidence-kit.md` alongside the transcript and checks every quoted span
-against it, so the "no quote, no claim" rule in §3 is enforced and not merely asked
-for. A FAIL means the output violated this contract — say so plainly; never rewrite a
-transcript to make it pass.
+**After delivery: check first, then save.** Deliver the diagnosis in full in the chat —
+never only as a saved file. Then write it, unedited, to a scratch file **outside the case
+folder** and run `python3 _tools/check_diagnosis.py` on it, passing the case's
+`evidence-kit.md`. The checker reads the kit alongside the transcript and verifies every
+quoted span against it, so the "no quote, no claim" rule in §3 is enforced and not merely
+asked for.
+
+**Only a passing diagnosis is saved into the case folder** — as `transcript.md`
+(revisions: `transcript-rev2.md` and onward, §4a; re-runs:
+`transcript-rerun-YYYY-MM-DD.md`, §4b). A case folder holds the person's evidence and the
+diagnosis it produced. Nothing else belongs in it: a draft that failed is this tool's
+working material, and leaving one there hands somebody a file they did not ask for, cannot
+use, and did not cause.
 
 ## 4a. Revisions
 
